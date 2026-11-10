@@ -1,0 +1,210 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>기후위기 적응정보 화면 고도화</title>
+<style>
+@font-face{font-family:"NotoKR";src:url("fonts/NotoSansKR-VF.ttf") format("truetype");font-weight:100 900}
+:root{--acc:#2f5f5a;--tint:#f4f4f2;--line:#dcdcd8;--line2:#ececea;--ink:#222;--gray:#707070}
+*{box-sizing:border-box}
+body{margin:0;font-family:"NotoKR","Noto Sans KR","Malgun Gothic",sans-serif;font-size:14px;color:var(--ink);background:#fff;letter-spacing:-.2px;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+b,strong{font-weight:600}
+header{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line)}
+.hd{max-width:1280px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:24px;height:58px}
+.logo{font-weight:700;font-size:16px;letter-spacing:-.4px;white-space:nowrap}
+nav{display:flex;gap:4px;height:100%}
+nav a{display:flex;align-items:center;padding:0 12px;color:var(--gray);border-bottom:2px solid transparent;height:100%;font-size:14.5px;white-space:nowrap}
+nav a:hover{color:var(--ink)}nav a.on{color:var(--ink);font-weight:700;border-bottom-color:var(--acc)}
+.to-gal{margin-left:auto;white-space:nowrap;font-size:13.5px;font-weight:600;border:1px solid var(--ink);padding:7px 12px}
+.to-gal:hover{background:var(--ink);color:#fff}
+main{max-width:1280px;margin:0 auto;padding:28px 24px 80px}
+h1{font-size:26px;margin:0 0 8px;letter-spacing:-.6px}
+.eyebrow{font-size:12.5px;color:var(--acc);font-weight:600;margin-bottom:6px}
+.lead{color:var(--gray);font-size:15px;margin:0 0 26px;line-height:1.6;max-width:880px}
+.sect-h{display:flex;align-items:baseline;gap:12px;margin:34px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.sect-h h3{margin:0;font-size:17px}.sect-h .q{color:var(--gray);font-size:13.5px}
+.hm-results{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.hm-card{border:1px solid var(--line);background:#fff;display:flex;flex-direction:column}
+.hm-card .pic{display:block;background:var(--tint);border-bottom:1px solid var(--line)}
+.hm-card .pic img{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:top;display:block}
+.hm-card .tx{padding:18px 20px 20px;display:flex;flex-direction:column;gap:8px;flex:1}
+.hm-card .no{font-size:12px;color:var(--gray)}
+.hm-card h2{margin:0;font-size:20px;letter-spacing:-.5px}
+.hm-card ul{margin:0;padding-left:18px;font-size:13.5px;color:#444;line-height:1.7}
+.btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:8px}
+.btn{display:inline-block;border:1px solid var(--ink);padding:8px 14px;font-size:13.5px;background:#fff;color:var(--ink)}
+.btn.pri{background:var(--ink);color:#fff}
+.btn:hover{background:#000;color:#fff}
+.btn.txt{border-color:transparent;padding-left:4px;padding-right:4px;color:var(--acc);font-weight:600}
+.btn.txt:hover{background:none;color:var(--ink)}
+.rc{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:26px;padding:22px 0;border-top:1px solid var(--line2);align-items:start}
+.sect-h+.rc{border-top:0;padding-top:4px}
+.rc img{width:100%;border:1px solid var(--line);display:block}
+.rc .who{font-size:12px;color:var(--gray)}
+.rc h2{margin:4px 0 10px;font-size:19px;letter-spacing:-.4px}
+.rc ul{margin:0 0 14px;padding-left:18px;line-height:1.75;font-size:13.5px;color:#333}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips a{border:1px solid var(--line);padding:7px 12px;font-size:13px;background:#fff}
+.chips a:hover{border-color:var(--ink)}
+.tbl{border-collapse:collapse;width:100%;font-size:13.5px}
+.tbl th{text-align:left;font-weight:600;border-bottom:1px solid #999;padding:8px;color:#444}
+.tbl td{border-bottom:1px solid var(--line2);padding:9px 8px;vertical-align:top;line-height:1.55}
+.tbl td.k{font-weight:600;white-space:nowrap;width:130px}
+.tbl td.ar{color:var(--gray);text-align:center;width:28px;padding-left:0;padding-right:0}
+.tbl td.em{font-weight:600}
+.tbl tr.grp td{background:var(--tint);font-weight:700;font-size:12.5px;color:#444;padding:6px 8px}
+details.more{border-top:1px solid var(--line);margin-top:30px}
+details.more summary{cursor:pointer;padding:14px 2px;font-size:15px;font-weight:600;list-style:none;display:flex;align-items:center;gap:8px}
+details.more summary::-webkit-details-marker{display:none}
+details.more summary::before{content:'+';display:inline-flex;width:18px;justify-content:center;color:var(--gray)}
+details.more[open] summary::before{content:'−'}
+details.more summary span{font-size:12.5px;font-weight:400;color:var(--gray)}
+details.more>div{padding:0 0 16px}
+.pager{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--line);margin-top:40px;padding-top:16px}
+.pager a{font-size:13.5px;font-weight:600;border:1px solid var(--line);padding:9px 14px}
+.pager a:hover{border-color:var(--ink)}
+@media(max-width:1000px){.hd{flex-wrap:wrap;height:auto;padding:10px 24px;gap:6px 16px}nav{height:40px;overflow-x:auto;max-width:100%}.to-gal{margin-left:0}}
+@media(max-width:900px){.hm-results,.rc{grid-template-columns:1fr}}
+</style></head><body>
+<header><div class="hd"><a class="logo" href="#/">기후위기 적응정보 화면 고도화</a>
+<nav><a href="#/" data-n="home">개요</a><a href="#/final" data-n="final">운영 화면 개선</a><a href="#/next" data-n="next">고도화 제안 화면</a></nav>
+<a class="to-gal" href="index.html">화면 갤러리 ↗</a></div></header>
+<main id="app"></main>
+<script>
+const app=document.getElementById("app");
+const esc=t=>String(t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const rc=c=>`<div class="rc"><a href="${c.links[0][1]}" target="_blank"><img loading="lazy" src="front_shots/thumbs/${c.img}.jpg" alt=""></a><div><span class="who">${c.who}</span><h2>${esc(c.t)}</h2><ul>${c.pts.map(p=>`<li>${esc(p)}</li>`).join("")}</ul><div class="btns">${c.links.map((l,i)=>`<a class="btn ${i?"":"pri"}" href="${l[1]}" target="_blank">${l[0]}</a>`).join("")}</div></div></div>`;
+
+const SFR=[
+ ["SFR-004-01","표준 좌표계(EPSG:5179) 통합","-","WebGIS 지도를 EPSG:5179로 표출, 데이터별 원본 좌표계와 변환 표시","공간데이터 업로드·변환(관리자)"],
+ ["SFR-004-02","WMS·WFS·MVT 배정, 타일 캐시","자료 메타정보에 제공 방식 표시","데이터별 제공 방식(객체 수·복잡도 기준)과 타일 캐시 여부 표시","GeoServer 설정(별도 문서)"],
+ ["SFR-004-03","표준 격자(10km·100km)와 행정구역 집계","-","집계 단위 전환(시도·100km·10km 격자, 국가지점번호 문자). 시안은 시도 값을 격자에 배분","격자·법정동코드 생성(관리자)"],
+ ["SFR-004-04","취약성 지표 다중 레이어 중첩 분석","-","중첩 분석 탭(레이어 2~4개, 지역·기간·시나리오·부문 조건, 지도·차트·표, CSV 내려받기)",""],
+ ["SFR-004-05","타임 슬라이더·히트맵","온열질환 시도×연도 히트맵(받은 자료 2011~2025)","WebGIS 타임라인·시도×연도 히트맵, 대국민 연도별 변화 띠",""],
+ ["SFR-004-06","레이어 선택·중첩·범례·투명도","단계구분도 투명도 조절 추가","KADT 레이어 목록, 겹쳐 보기, 범례, 투명도",""],
+ ["SFR-005-01","부문 통합지표, 시나리오별 영향도 비교","-","시나리오 탭: 부문 통합지표와 2050·2100년 시나리오별 변화율","통합지표 산식(R&D 기준 확정 후 교체)·관리 화면"],
+ ["SFR-005-02","사용자 맞춤형 대시보드","-","화면 구성: 분석 탭·요약 카드·지도 위 막대를 골라 브라우저에 저장",""],
+ ["SFR-005-03","요약 → 상세 → 원천 3클릭 이내","요인 → 연결 자료 → 메타정보","진단표·지도 → 레이어 자료 → 원천 자료 보기(데이터 검색)",""],
+ ["SFR-005","비교 기준 통일, 조건 즉시 반영·유지, 지도·차트·표 연동","히트맵 행을 누르면 지역 선택","공통 조회 조건 표시·주소 유지, 산점도·막대·히트맵·표를 누르면 지역·연도 연동",""],
+ ["SFR-006","영향체인 구조화, 동적 그래프, 연계 완결성, 노드 탐색, 메타정보","연계 완결성, 요인별 자료 메타정보","원인–대상–영향–파급효과 순서, 연결 그래프(확대·이동), 연계 완결성, 메타정보, 단계 정의",""],
+ ["SFR-006","SCI–SOL–PEV 통합 시각화(프로토타입)","영향관계도를 보건·농축 발표자료(1차 워크숍) 영향체인 기준으로 다시 그림","지도 위 KADT 흐름 막대, 영향관계도 탭(발표자료 도식: SCI·취약성·SOL·PEV, 크게 보기)",""],
+ ["SFR-007","대책 기준 추적, 연계 유형, 연결 변경 이력","대책 기준 추적","대책 기준 추적(대상 조건), 연계 유형(근거·대응·정책 참조), 연결 변경 이력(예시)",""],
+ ["SFR-008","사용자 유형별 제공 범위, 정보구조","-","대국민·공무원·연구자 화면 분리, 데이터 검색 제공 범위(공개·제한·기관용) 필터","권한·메뉴 노출 정책"],
+ ["SFR-008","피드백 채널, 처리 단계, 반영 이력","의견·오류 신고 버튼","같은 신고 창(유형 4종, 접수 → 분류 → 조치 → 반영, 우선순위 기준, 반영 이력)","관리자 처리 화면"],
+ ["SFR-011","KADT 주제별 DB 설계","-","-","DB 설계 산출물"]];
+/* ── 개요 ── */
+function pHome(){
+  app.innerHTML=`<div class="eyebrow">농축식품·보건 적응정보 표출 화면 · 대국민 / 공무원</div>
+  <h1>기후위기 적응정보 화면 고도화</h1>
+  <p class="lead">받은 원본자료(2026-10-26 수령)를 대국민·공무원 화면에 반영함. 현 운영 화면을 개선한 안(①)과 화면을 새로 설계한 안(②) 두 가지로 작성함. 모든 화면은 실제 동작함.</p>
+  <div class="hm-results">
+   <div class="hm-card"><a class="pic" href="#/final"><img src="front_shots/thumbs/g_sprt_h10.jpg" alt="운영 화면 개선"></a>
+    <div class="tx"><span class="no">①</span><h2>운영 화면 개선</h2>
+     <ul><li>현 운영 화면의 구성·기능 유지</li><li>받은 원본자료를 기존 화면 흐름 안에 반영</li><li>기존 기능 삭제 없이 버튼·패널만 추가</li></ul>
+     <div class="btns"><a class="btn pri" href="portal/local-climate-risk" target="_blank">대국민 화면 ↗</a><a class="btn" href="pbofc/plcy/sprt/PlcySprtSrch?sectorCd=H&riskCd=H10" target="_blank">공무원 화면 ↗</a><a class="btn txt" href="#/final">세부 내용 →</a></div></div></div>
+   <div class="hm-card"><a class="pic" href="#/next"><img src="front_shots/thumbs/n_portal.jpg" alt="고도화 제안 화면"></a>
+    <div class="tx"><span class="no">②</span><h2>고도화 제안 화면</h2>
+     <ul><li>대국민: 지금 조심할 위험 하나 · 할 일 · 앞으로(날씨 앱형)</li><li>공무원: WebGIS 의사결정 지원(중첩 분석·표준 격자·영향관계도) · 세부시행계획 보고서 초안(PDF)</li><li>연구자: KADT 구조 데이터 검색</li></ul>
+     <div class="btns"><a class="btn pri" href="portal/next/my-climate-risk" target="_blank">대국민 화면 ↗</a><a class="btn" href="pbofc/plcy/next/decision" target="_blank">공무원 화면 ↗</a><a class="btn txt" href="#/next">세부 내용 →</a></div></div></div>
+  </div>
+  <div class="sect-h"><h3>작성 기준</h3></div>
+  <table class="tbl">
+   <tr><td class="k">대상 화면</td><td>대국민(portal) · 공무원(pbofc) 운영 프론트 코드 사본</td></tr>
+   <tr><td class="k">사용 자료</td><td>확인용 원본자료(2026-10-26 수령) 17종 집계값, 일부 더미(메뉴·로그인·물환경/해양 건수 등)</td></tr>
+   <tr><td class="k">작성 방식</td><td>운영 API 대신 화면 안의 가짜 API로 동작, 별도 서버 없이 열람 가능</td></tr>
+   <tr><td class="k">참고 자료</td><td>국내외 화면 조사·사례 분석 결과: <a href="index.html" style="color:var(--acc);font-weight:600">화면 갤러리 ↗</a></td></tr>
+  </table>
+  <div class="sect-h"><h3>요구사항 반영 대조</h3><span class="q">SFR-004~011(작성 중인 요구사항 정의 기준) · 화면 외 항목은 별도 산출물</span></div>
+  <table class="tbl"><tr><th style="width:11%">요구</th><th style="width:21%">내용</th><th style="width:22%">① 운영 화면 개선</th><th>② 고도화 제안 화면</th><th style="width:15%">화면 외</th></tr>${SFR.map(r=>`<tr><td class="k">${esc(r[0])}</td><td>${esc(r[1])}</td><td>${esc(r[2])}</td><td class="em">${esc(r[3])}</td><td>${esc(r[4]||"-")}</td></tr>`).join("")}</table>`;
+}
+
+/* ── ① 운영 화면 개선 ── */
+const FIN=[
+ {who:"대국민",img:"p_heat",t:"우리동네 기후리스크",pts:["‘준비중’이던 건강·농업 부문 활성화, 위험 5종(폭염·한파·취약계층·가뭄·병해충) 추가","위험 선택 시 지도에 시도별 단계·쉼터 위치, 좌측에 원인·영향 카드, 우측에 통계 그래프 표출","[적응정보 대시보드] 버튼 추가, 지역 요약과 전국 비교를 지도 아래에 표출","온열질환 시도×연도 히트맵(2011~2025, 행을 누르면 지역 선택), 단계구분도 투명도 조절, 의견·오류 신고 버튼 추가"],links:[["화면 열기 ↗","portal/local-climate-risk"]]},
+ {who:"공무원",img:"g_sprt_h10",t:"정책지원 검색",pts:["보건·농축식품 위험 조회 시 영향관계도 표출(받은 자료 형식, 라벨 겹침 보정)","영향관계도를 1차 워크숍 발표자료(보건 이승묵 교수, 농축 임창식 박사) 영향체인 기준으로 다시 그림. 위해성 안 직간접 영향, 노출성, 다대다 연결은 줄기선 하나로 표시","좁은 패널에 맞춰 영향관계도 확대(긴 이름 두 줄, 범례 위로, 5개 이상 줄은 두 줄 배치). 지도 위 데이터 패널에 기상관측소·시도 경계·쉼터 레이어 연결, 요인을 누르면 해당 레이어 강조","영향관계도 요인 선택 시 ‘데이터 요약’ 탭에 연결 자료·표출 방식 표시","지도에 시도별 단계 표출, 보고서 초안 문장 자동 작성","데이터 요약에 연계 완결성(단계별 원본 확인 요인 수), 자료 메타정보(기준 시점·갱신 주기·품질·공간 연계), 대책 기준 추적 추가"],links:[["보건 H10 ↗","pbofc/plcy/sprt/PlcySprtSrch?sectorCd=H&riskCd=H10"],["농축식품 A17 ↗","pbofc/plcy/sprt/PlcySprtSrch?sectorCd=A&riskCd=A17"]]},
+ {who:"공무원 · 대국민",img:"g_main",t:"정책지원 시작하기 · 분야별 정보",pts:["보건·농축식품 부문 선택 가능, [농축식품·보건 미리보기]로 지표·보고서 문장 확인","SOL·PEV 카드의 ‘준비중’ 문구가 제목을 가리던 문제 수정","분야별 정보의 건강·농업 부문 ‘준비중’ 해제, 연계 건수 표시"],links:[["정책지원 시작하기 ↗","pbofc/plcy/policy-main"],["분야별 정보 ↗","portal/data/sector"]]}];
+function pFinal(){
+  app.innerHTML=`<div class="eyebrow">①</div><h1>운영 화면 개선</h1>
+  <p class="lead">현 운영 화면(대국민·공무원)의 구성·기능은 유지하고, 받은 원본자료를 기존 화면 흐름 안에 반영함. 기존 기능은 삭제하지 않고 버튼·패널만 추가함.</p>
+  <div class="sect-h"><h3>변경 화면</h3><span class="q">3곳</span></div>
+  ${FIN.map(rc).join("")}
+  <div class="sect-h"><h3>변경하지 않은 화면</h3><span class="q">비교용</span></div>
+  <div class="chips"><a href="portal/" target="_blank">대국민 메인 ↗</a><a href="portal/intro/national-climate-risk" target="_blank">국가기후리스크 ↗</a><a href="portal/data/agency" target="_blank">기관별 정보 ↗</a><a href="pbofc/plcy/sprt/PlcySprtSrch" target="_blank">정책지원 검색(물환경·해양) ↗</a></div>
+  <details class="more"><summary>자료 출처와 한계 <span>받은 자료·더미·지도·변경 범위</span></summary><div>
+  <table class="tbl">
+   <tr><td class="k">받은 원본자료</td><td>확인용 원본자료(2026-10-26 수령) 17종 집계값(온열·한랭질환, 저수율, 가뭄단계, 병해충, 수급자, 에너지효율, 지방재정 폭염·한파 키워드 등)</td></tr>
+   <tr><td class="k">더미</td><td>메뉴·로그인(시안 사용자), 기관별 API 수 일부, 강수량 관측소 값(62곳), 물환경·해양 부문 건수(운영 값 아님)</td></tr>
+   <tr><td class="k">지도</td><td>배경지도(VWorld)는 등록된 도메인에서만 표시되어 이 사이트에서는 비어 보일 수 있음. 운영 GeoServer 레이어 대신 시도 경계(공개자료) 사용</td></tr>
+   <tr><td class="k">겹침 보정</td><td>영향관계도 라벨·범례 겹침, ‘준비중’ 문구 겹침, 지도 시도 라벨 겹침 수정. 영향관계도는 공용 라이브러리를 수정하지 않고 사본으로 교체</td></tr>
+   <tr><td class="k">변경 범위</td><td>기존 코드 삭제 없음. 추가 파일·변경 내역은 front_src/고도화_변경내역.md 참고</td></tr></table></div></details>
+  <div class="pager"><a href="#/">← 개요</a><a href="#/next">② 고도화 제안 화면 →</a></div>`;
+}
+
+/* ── ② 고도화 제안 화면 ── */
+const NEXT=[
+ {who:"대국민",img:"n_portal",t:"우리 지역 기후위험 현황",pts:["화면 전체를 물모아 메인처럼 카드 3장 묶음으로 구성(지역 현황 · 연도별 변화 · 관측·피해 현황). 카드 위에서 휠을 굴리면 페이지 대신 카드가 넘어감","1장: 우선 주의 위험·선택 지역의 기후위험 순위(위), 국민행동요령·오늘의 기상·기후 소식(아래)을 한 패널에. 2장: 연도 타임라인과 위험 9종 카드. 3장: 관측 → 피해 → 대응 흐름과 그래프","지역·대상별 안내 선택은 제목 줄, 오른쪽 이동 메뉴, 기관 출처 링크. 색은 고도화 화면 공통 남색 계열"],links:[["화면 열기 ↗","portal/next/my-climate-risk"]]},
+ {who:"공무원",img:"n_pbofc",t:"적응정책 의사결정 지원(WebGIS)",pts:["지도 표준 좌표계 EPSG:5179, 집계 단위 전환(시도·100km·10km 격자, 국가지점번호 문자), 지도 위 KADT 흐름 막대(SCI → SOL → PEV)","중첩 분석: 취약성 지표 레이어 2~4개를 단계 평균·동시 해당 방식으로 겹쳐 지도·차트·표로 보고 CSV로 내려받음. 시나리오: 부문 통합지표와 2050·2100년 변화율, 시도×연도 히트맵","영향관계도: 발표자료 도식(위해성 → 노출성 → 직간접 영향 → 리스크 → 피해, 취약성·SOL·PEV)과 크게 보기, 단계 목록, 연결 그래프(확대·이동), 연계 완결성, 자료 메타정보(출처·기준 시점·갱신 주기·품질·공간 연계), 대책 기준 추적, 연결 변경 이력","화면 구성(탭·요약 카드·지도 위 막대 선택 저장), 조회 조건 유지(주소에 저장), 진단표 → 레이어 자료 → 원천 자료 3단계 탐색, 취약성·예산·비교·보고서 탭 유지"],links:[["화면 열기 ↗","pbofc/plcy/next/decision"]]},
+ {who:"공무원",img:"n_report",t:"적응대책 세부시행계획 보고서 초안 작성",pts:["WebGIS 상단 ‘보고서 작성’·보고서 탭, 정책지원 시작하기 ‘원클릭 보고서 작성’ 버튼에서 팝업으로 작성","지자체·작성 연도·배출 시나리오·포함 리스크·장(Ⅰ~Ⅵ, 부록)을 고르면 화면에 쓰인 받은 자료로 표·그림·본문 자동 작성, 출처는 각주·참고문헌으로 정리","자료가 없는 칸(예산·성과지표 등)은 ‘지자체 입력 필요’로 표시, A4 미리보기 후 PDF 저장"],links:[["보고서 작성 열기 ↗","pbofc/plcy/next/decision?report=1"],["정책지원 시작하기 ↗","pbofc/plcy/policy-main"]]},
+ {who:"연구자",img:"n_search",t:"적응정보 데이터 검색(KADT)",pts:["KADT 구조(SCI 위해성·노출·취약성·직·간접 영향·리스크 → SOL → PEV)로 데이터 탐색, 단계별 건수 표시","분야·시점·공간 단위·제공 형식·자료 상태 조건 검색, 이름·기관·리스크 키워드 검색","데이터별 메타데이터(기준 시점·갱신 주기·품질·제공 범위·제공 방식·좌표계)·연결 리스크·권장 표출 방식·미리보기 값","제공 범위(공개·제한·기관용) 필터, 의사결정 지원 화면과 조회 조건을 주고받음(원천 자료 보기 ↔ 지도에서 보기)"],links:[["화면 열기 ↗","pbofc/plcy/next/data-search"]]}];
+const DESIGN={"sections": {"대국민 1 지역 카드": "물모아(우리 지역 카드), 에어코리아(등급 색 고정)", "대국민 2 위험별 데이터": "산림청 산불상황관제(KPI→지도→추이→구성→표), CDC Heat & Health Tracker", "대국민 2 대비": "NYC Cooling Center Finder, CDC HeatRisk, UKHSA 폭염 건강경보", "대국민 3 시간 변화": "Climate at a Glance, The Climate Explorer, 기상청 기후변화 상황지도", "대국민 4 전국 비교": "Klimaatlas NRW, 생활안전지도", "공무원 WebGIS 레이어": "Klimaateffectatlas(KADT 순서), U.S. Drought Monitor(단계 색·출처 명시)", "공무원 지도 클릭 비교": "Klimaatlas NRW(상위 지역 대비)", "공무원 취약성": "NYC Heat Vulnerability Index, U.S. Climate Vulnerability Index", "공무원 예산": "열린재정, USAspending, Klimadashboard.at", "연구자 데이터 검색": "Our World in Data(카탈로그·메타데이터), Klimaateffectatlas"}, "rows": [{"id": "d01", "name": "종관기상관측(ASOS) 일자료(기온·강수)", "use": ["가뭄·원인", "물 부족·원인", "병해충·원인", "취약계층 건강·원인"], "recv": true, "screen": "지점 지도 + 선택 지점 KPI(오늘·평년 대비) + 일별 그래프(올해 강조·과거 회색) / 가공 지표는 시군구 지도 + 연도 막대", "cases": ["기상청 날씨누리", "Climate Reanalyzer 일별 기온", "Climate Pulse"]}, {"id": "d02", "name": "연도별 가뭄 지도 정보(시군별 저수율·가뭄 단계)", "use": ["가뭄·원인", "물 부족·원인"], "recv": true, "screen": "시군 가뭄단계 지도(단계 색·범례 고정) + 시군 클릭 시 저수율·평년 대비 + 연도 선택·전년 비교", "cases": ["U.S. Drought Monitor", "European Drought Observatory", "국가가뭄정보포털"]}, {"id": "d03", "name": "전국 저수지 일별 저수율(+시설기본정보)", "use": ["가뭄·영향·피해", "물 부족·영향·피해"], "recv": true, "screen": "저수지 점 지도(저수율 구간 색) + 저수지 상세(올해·평년 선그래프) + 시군 평균 저수율 게이지", "cases": ["물모아", "에어코리아", "Climate Reanalyzer 일별 기온"]}, {"id": "d04", "name": "침수흔적도", "use": ["취약계층 건강·원인", "호우·침수·영향·피해"], "recv": true, "screen": "주소 검색 + 침수흔적 면 지도(등급 색) + 농경지·취약시설 겹치기 + 연도별 이력", "cases": ["Coastal Risk Finder", "Klimaatlas NRW", "NASA Worldview"]}, {"id": "d05", "name": "식량작물 생산량(정곡)", "use": ["가뭄·영향·피해", "병해충·영향·피해"], "recv": false, "screen": "작물 탭 + 연도별 생산량 선/막대(평년선) + 시도 지도(증감률) + 요약 문장", "cases": ["Global Forest Watch 대시보드", "Climate at a Glance", "Our World in Data 그래퍼"]}, {"id": "d06", "name": "벼 작황 성적 정보(품종별 생육·수량)", "use": ["가뭄·영향·피해"], "recv": true, "screen": "품종·지역 선택 + 생육 진척 곡선(올해 실선·전년 파선·평년 점선) + 수량 막대 + 시험포 점 지도", "cases": ["USDA 작황·생육 현황 지도", "Norsk klimaservicesenter 기후전망", "The Climate Explorer"]}, {"id": "d07", "name": "제4차 국가 기후위기 적응대책 세부과제", "use": ["가뭄·대비"], "recv": false, "screen": "리스크(A17) 선택 → 관련 대책 과제 카드 목록(부처·상태 배지·진척 바) → 과제 상세", "cases": ["Klimaateffectatlas", "UKHSA 폭염 건강경보 대시보드", "Klimaatlas NRW"]}, {"id": "d08", "name": "지방 기후위기 적응대책 세부사업 DB(KADT PEV)", "use": ["가뭄·정책평가", "고수온·정책평가", "물 부족·정책평가", "병해충·정책평가"], "recv": false, "screen": "지자체 선택 + 사업 수·예산 KPI + 목표 대비 진척 바 + 분야별 트리맵 + 지자체 순위 표", "cases": ["Klimadashboard.at", "열린재정 재정정보공개", "USAspending 지출 탐색"]}, {"id": "d09", "name": "병해충 예찰정보(작물·병해충별 예찰결과)", "use": ["병해충·영향·피해"], "recv": true, "screen": "작물·병해충 선택 + 예찰 회차 슬라이더 + 시군구 발생 정도 지도 + 연도별 발생면적 막대", "cases": ["USA-NPN 병해충 예측지도", "생활안전지도", "산림청 산불상황관제"]}, {"id": "d10", "name": "사과 생육·과실품질정보", "use": ["병해충·영향·피해"], "recv": true, "screen": "과원 선택 + 만개일 KPI(평년 대비 ±일) + 연도별 생육·품질 선그래프 + 과원 위치 마커", "cases": ["USDA 작황·생육 현황 지도", "Climate Reanalyzer 일별 기온", "NOAA GML CO2 Trends"]}, {"id": "d11", "name": "예찰 기반 적기방제·공동방제 등(SOL)", "use": ["병해충·대비"], "recv": false, "screen": "병해충 발생 단계 → 단계별 방제 행동 카드(번호형) → 지역 공동방제 일정 목록", "cases": ["USA-NPN 병해충 예측지도", "UKHSA 폭염 건강경보 대시보드", "CDC HeatRisk"]}, {"id": "d12", "name": "주요 도시 폭염 일수(7개 도시)", "use": ["폭염·원인"], "recv": true, "screen": "연도×도시 히트맵 + 도시 선택 시 연도별 막대(평년선) + 올해 폭염일수 KPI", "cases": ["Climate at a Glance", "기상청 기후변화 상황지도", "#ShowYourStripes"]}, {"id": "d13", "name": "행정구역(시군구)별 연령별 주민등록인구", "use": ["취약계층 건강·취약 대상", "폭염·취약 대상", "한파·취약 대상", "해수면 상승·취약 대상"], "recv": false, "screen": "취약 지표 선택(고령·영유아) + 시군구 비율 지도 + 지역 클릭 시 연령 구성 누적 막대 + 상위 지역 표", "cases": ["U.S. Climate Vulnerability Index", "NYC Heat Vulnerability Index", "생활안전지도"]}, {"id": "d14", "name": "온열질환 감시 데이터(발생일자·성별·나이·시군구·장소)", "use": ["취약계층 건강·영향·피해", "폭염·영향·피해"], "recv": true, "screen": "올해 누적 환자 KPI + 시군구 발생률 지도(폭염일수 겹치기) + 일별 발생 추이 + 연령·장소 구성 + 신고 목록", "cases": ["CDC Heat & Health Tracker 응급실 방문", "산림청 산불상황관제", "CDC HeatRisk"]}, {"id": "d15", "name": "전국 무더위쉼터(위치·유형)", "use": ["폭염·대비"], "recv": true, "screen": "[국민] 내 주변 검색 → 쉼터 점 지도·목록(유형·운영시간) / [정책] 시군구 고령인구 1천 명당 쉼터 수 지도", "cases": ["NYC Cooling Center Finder", "산사태정보시스템", "CDC HeatRisk"]}, {"id": "d17", "name": "긴급재난문자(발송일시·지역·내용)", "use": ["취약계층 건강·대비", "폭염·대비", "한파·대비", "호우·침수·대비"], "recv": true, "screen": "폭염/한파 탭 + 최신 문자 목록(단계 라벨) + 시군구 발송 건수 지도 + 날짜별 달력 히트맵 + 행동요령 카드", "cases": ["국민재난안전포털 재난문자", "UKHSA 폭염 건강경보 대시보드", "산사태정보시스템"]}, {"id": "d18", "name": "지방재정365 세부사업별 세출", "use": ["취약계층 건강·정책평가", "폭염·정책평가", "한파·정책평가", "호우·침수·정책평가"], "recv": true, "screen": "지자체·연도 선택 + 적응 관련 세출 총액 KPI + 분야→사업 트리맵 + 연도별 막대 + 1인당 예산 지도", "cases": ["USAspending 지출 탐색", "열린재정 재정정보공개", "Klimadashboard.at"]}, {"id": "d20", "name": "기초생활보장 수급자 수(시도별)", "use": ["취약계층 건강·취약 대상", "폭염·취약 대상", "한파·취약 대상"], "recv": true, "screen": "취약성 화면의 ‘저소득’ 지표: 시도 수급률 지도 + 연도별 막대", "cases": ["U.S. Climate Vulnerability Index", "NYC Heat Vulnerability Index", "생활안전지도"]}, {"id": "d21", "name": "시군구별·장애정도별·성별 등록장애인수", "use": ["취약계층 건강·취약 대상"], "recv": false, "screen": "취약성 화면의 ‘장애인’ 지표: 시군구 비율 지도 + 장애정도 구성 막대", "cases": ["U.S. Climate Vulnerability Index", "NYC Heat Vulnerability Index"]}, {"id": "d22", "name": "건축 경과연수별 주택(시군구, 30년 이상 노후주택)", "use": ["취약계층 건강·취약 대상"], "recv": false, "screen": "취약성 화면의 ‘주거’ 지표: 노후주택 비율 지도 + 경과연수 구성", "cases": ["NYC Heat Vulnerability Index", "U.S. Climate Vulnerability Index"]}, {"id": "d23", "name": "저소득층 에너지효율개선 사업통계", "use": ["취약계층 건강·대비"], "recv": true, "screen": "누적 지원 가구·금액 KPI + 연도별 막대 + 시도 지도(수급 가구 대비 지원율)", "cases": ["Klimadashboard.at", "열린재정 재정정보공개", "Global Forest Watch 대시보드"]}, {"id": "d24", "name": "시군구별 한랭질환 현황(증상발생일·환자수·추정 사망자수)", "use": ["취약계층 건강·영향·피해", "한파·영향·피해"], "recv": true, "screen": "절기 누적 환자·사망 KPI + 시군구 발생 지도(한파일수 겹치기) + 일별 추이 + 표", "cases": ["CDC Heat & Health Tracker 응급실 방문", "산림청 산불상황관제", "생활안전지도"]}, {"id": "d25", "name": "한파쉼터(위치·수용인원·운영시간)", "use": ["한파·대비"], "recv": true, "screen": "내 주변 검색 → 한파쉼터 점 지도·목록(수용인원·운영시간) / 시군구 쉼터 수용률 지도", "cases": ["NYC Cooling Center Finder", "산사태정보시스템"]}]};
+const REQ=[
+ ["정책지원 고도화(WebGIS 기반)","적응정책 의사결정 지원 화면을 지도 중심 WebGIS로 재구성(KADT 레이어 · 지도 · 분석 패널)"],
+ ["연구자용 데이터 검색(KADT 구조)","적응정보 데이터 검색 화면 신규 작성(KADT 대분류·중분류 탐색, 조건·키워드 검색, 메타데이터)"],
+ ["대국민 화면 과거·현재·미래 구분","버튼 대신 연도 타임라인 사용. 관측(2016~2025), 현재, 전망(2030~2100)을 한 축에 두고 재생·그래프 클릭과 연동, 현재 값과 선택 연도 값을 큰 숫자로 비교(Climate Atlas of Canada·The Climate Explorer)"],
+ ["대국민 화면 물환경·해양수산 추가","물환경(호우·침수, 물 부족)·해양수산(해수면 상승, 고수온) 위험 4종 추가(값은 예시값)"],
+ ["보고서 산출(버튼을 누르면 팝업에서 근거자료를 넣어 작성)","적응대책 세부시행계획 목차(Ⅰ 개요 · Ⅱ 지역 현황과 기후변화 전망 · Ⅲ 기후위기 리스크 평가 · Ⅳ 전년도 추진 실적·평가 · Ⅴ 부문별 세부 시행계획 · Ⅵ 이행 관리·모니터링 · 부록)로 초안 작성, 표·그림 번호와 출처 각주 자동 부여, PDF 저장"],
+ ["실서비스 수준 다듬기","설계 근거(참고 사례·추천 표현)는 기본 숨김 + ‘설계 근거 보기’ 전환, 지도 로딩 표시, 모바일 배치(지도 우선·타임라인 한 줄·검색 조건 접기)"],
+ ["벤치마킹·받은 자료 기반 고도화","사례 분석 64곳의 데이터별 추천 구성과 받은 원본자료 실제 값 패널로 화면 구역을 다시 구성(아래 설계표)"]];
+const REFLECT=[
+ ["한 화면에 패널·정보가 많아 읽는 순서가 불분명함","요약, 상세, 근거 순서로 나누고 구역마다 번호를 붙임"],
+ ["잘된 화면은 대표 수치를 먼저 제시함","위험 단계 카드(대국민)·핵심 지표와 진단표(공무원)를 상단에 배치"],
+ ["연도·시나리오를 겹쳐 비교하는 화면의 이해도가 높음","전국 순위·평균선, 피해–예산 산점도, 유사 지자체 비교 제공"],
+ ["기준선·범례가 분명한 화면이 판단에 도움이 됨","4단계 색 범례(관심·주의·경계·심각), 평균 대비 %, 인구 대비 비율 사용"],
+ ["자료 출처·상태를 밝힌 화면의 신뢰도가 높음","모든 자료에 상태 표시(원본 확인·연계 예정·확보 필요)"]];
+const DIFF=[
+ ["대국민","지역·부문·위험을 모두 선택한 뒤 지도와 좌우 패널을 따로 읽어야 함","지역 선택만으로 지금 조심할 위험 1~3개와 할 일을 먼저 제시, 상세 분석은 접어서 제공"],
+ ["대국민","모든 이용자에게 같은 정보","‘나는’ 선택(고령·아이·야외 근로·농어업·해안 거주)으로 관련 위험·이유·행동요령 우선"],
+ ["대국민","수치만 제시되어 높고 낮음을 판단하기 어려움","전국 대비 단계·평균 대비 % 병기"],
+ ["대국민","환자 수 비교로 인구가 많은 지역이 항상 상위","인구 10만 명당·수급률 등 비율로 비교"],
+ ["대국민","원인·피해·대응 정보가 분산됨","원인, 영향, 대비 순서로 안내하고 단계마다 근거 자료 표시"],
+ ["대국민","현재 값만 제공, 건강·농업 외 분야 구분 부족","앞으로는(2050년) 한 줄 요약 + 연도 타임라인, 물환경·해양수산 포함 4개 분야"],
+ ["공무원","부문, 위험, KADT를 차례로 골라야 하고 위험끼리 비교할 수 없음","WebGIS 레이어 + 진단표로 위험 9종 일괄 비교, 미확보 자료는 빗금 표시"],
+ ["공무원","영향관계도 라벨이 겹치고 자료 확보 여부를 알 수 없음","고정 칸 구조도, 요인별 자료 상태 표시"],
+ ["공무원","타 지자체 비교 기능 없음","피해–예산 산점도, 유사 지자체 비교표"],
+ ["공무원","보고서 문장은 별도 화면에서 작성, ‘원클릭 보고서’는 준비중","같은 화면에서 세부시행계획 초안(표·그림·출처 각주)을 작성해 PDF로 저장, 정책지원 시작하기의 원클릭 보고서 버튼도 작동"],
+ ["연구자","데이터 다운로드 목록 위주, KADT 분류로 찾기 어려움","KADT 대분류·중분류 탐색, 조건·키워드 검색, 데이터별 메타데이터·연결 리스크"]];
+function pNext(){
+  const grp=g=>`<tr class="grp"><td colspan="2">${g}</td></tr>`+DIFF.filter(r=>r[0]==g).map(r=>`<tr><td>${esc(r[1])}</td><td class="em">${esc(r[2])}</td></tr>`).join("");
+  app.innerHTML=`<div class="eyebrow">②</div><h1>고도화 제안 화면</h1>
+  <p class="lead">화면 조사·사례 분석 결과를 바탕으로 기존 양식과 별개로 화면을 새로 설계함. 운영 사이트의 머리말·메뉴 안에 새 화면으로 추가하고, 사이트 메뉴에 ‘(고도화 제안)’으로 등록함.</p>
+  <div class="sect-h"><h3>화면</h3><span class="q">3종 + 보고서 작성</span></div>
+  ${NEXT.map(rc).join("")}
+  <div class="sect-h"><h3>개선사항 반영</h3><span class="q">2026-11-04 요청 사항</span></div>
+  <table class="tbl"><tr><th style="width:40%">요청 사항</th><th></th><th>반영 내용</th></tr>${REQ.map(r=>`<tr><td>${esc(r[0])}</td><td class="ar">→</td><td class="em">${esc(r[1])}</td></tr>`).join("")}</table>
+  <div class="sect-h"><h3>벤치마킹 반영 설계표</h3><span class="q">사례 분석 64곳과 데이터별 추천을 화면에 배치 · 원문: front_src/벤치마킹_반영_설계표.md</span></div>
+  <table class="tbl"><tr><th style="width:24%">화면 구역</th><th>참고 사례</th></tr>${Object.entries(DESIGN.sections).map(([k,v])=>`<tr><td class="k">${esc(k)}</td><td>${esc(v)}</td></tr>`).join("")}</table>
+  <details class="more" open><summary>데이터별 배치·표현·참고 사례 <span>${DESIGN.rows.length}종 · 받은 자료 ${DESIGN.rows.filter(r=>r.recv).length}종 실제 값 패널</span></summary><div>
+  <table class="tbl"><tr><th style="width:18%">데이터</th><th style="width:16%">배치</th><th style="width:9%">받은 자료</th><th>화면 구성(추천)</th><th style="width:20%">참고 사례</th></tr>${DESIGN.rows.map(r=>`<tr><td class="em">${esc(r.name)}</td><td>${esc(r.use.join(", "))}</td><td>${r.recv?"실제 값":"확보 후"}</td><td>${esc(r.screen)}</td><td>${esc(r.cases.join(", "))}</td></tr>`).join("")}</table></div></details>
+  <div class="sect-h"><h3>사례 분석 결과 반영</h3><span class="q">화면 갤러리 <a href="index.html#/cases" style="color:var(--acc);font-weight:600">사례 분석 ↗</a> 결과와 반영 내용</span></div>
+  <table class="tbl"><tr><th style="width:46%">사례 분석 결과</th><th></th><th>반영 내용</th></tr>${REFLECT.map(r=>`<tr><td>${esc(r[0])}</td><td class="ar">→</td><td class="em">${esc(r[1])}</td></tr>`).join("")}</table>
+  <div class="sect-h"><h3>기존 화면 대비 변경 사항</h3></div>
+  <table class="tbl"><tr><th style="width:50%">기존(운영 화면)</th><th>고도화 제안</th></tr>${grp("대국민")}${grp("공무원")}${grp("연구자")}</table>
+  <details class="more"><summary>자료와 한계 <span>인구·지도·단계 기준</span></summary><div>
+  <table class="tbl">
+   <tr><td class="k">받은 원본자료</td><td>확인용 원본자료(2026-10-26 수령) 집계값(① 운영 화면 개선과 동일)</td></tr>
+   <tr><td class="k">예시값</td><td>물환경·해양수산 위험 값, 과거 추이(폭염 제외), 미래 전망(2050·2100년, SSP2-4.5·SSP5-8.5), 물환경·해양수산 데이터 11종. 받은 원본자료에 없어 예시로 작성했고 화면에 ‘예시값’으로 표시</td></tr>
+   <tr><td class="k">인구</td><td>10만 명당 비율 계산에 주민등록인구(2024년 말, 만 명 반올림) 사용(시안 계산용)</td></tr>
+   <tr><td class="k">지도</td><td>배경지도 없이 시도 경계(공개자료)만 표시하여 외부 지도 서비스 제한과 무관. WebGIS 화면은 OpenLayers 사용(운영 VWorld 배경지도는 연계 시 적용)</td></tr>
+   <tr><td class="k">단계 기준</td><td>17개 시도 중 상대 순위(상위 25%씩). 실제 기준(특보·임계값)은 협의 후 교체</td></tr>
+   <tr><td class="k">보고서</td><td>목차는 적응대책 세부시행계획 구성을 기준으로 제안한 안. 본문 수치는 화면과 같은 받은 자료·예시값을 사용(예시값 포함 여부 선택), 예산·성과지표·추진 실적은 지자체 입력 칸으로 비워 둠. PDF는 브라우저 인쇄 기능(‘PDF로 저장’) 사용</td></tr>
+   <tr><td class="k">설계 근거 표시</td><td>화면 오른쪽 아래 ‘설계 근거 보기’로 참고 사례·추천 표현을 켜고 끔. 실제 서비스 기준으로 기본은 숨김</td></tr></table></div></details>
+  <div class="pager"><a href="#/final">← ① 운영 화면 개선</a><a href="#/">개요 →</a></div>`;
+}
+function route(){
+  const p=location.hash.replace(/^#\/?/,"").split(/[/?]/)[0];let n="home";
+  if(p=="final"){pFinal();n="final"}else if(p=="next"){pNext();n="next"}else pHome();
+  document.querySelectorAll("nav a").forEach(a=>a.classList.toggle("on",a.dataset.n==n));
+  window.scrollTo(0,0);
+}
+addEventListener("hashchange",route);route();
+</script>
+</body></html>

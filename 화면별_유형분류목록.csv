@@ -1,0 +1,420 @@
+﻿화면ID,권역,국가,사이트,화면,URL,유형(코드),유형,화면 설명
+s001_p0,국내,한국,경기기후플랫폼,첫 화면,https://climate.gg.go.kr/ips,L4 E2 M5,"랜딩·히어로형, 사진·영상, 위성·항공영상",항공영상 배경의 슬로건형 첫 화면
+s001_p1,국내,한국,경기기후플랫폼,경기기후플랫폼NEW,https://climate.gg.go.kr/cps,L4,랜딩·히어로형,"플랫폼 소개 문구 중심 히어로, 안내 팝업"
+s001_p2,국내,한국,경기기후플랫폼,기후경영 서비스,https://climate.gg.go.kr/cbss/main/index.do,L4 E2,"랜딩·히어로형, 사진·영상",기후경영 서비스 진입 히어로
+s001_p3,국내,한국,경기기후플랫폼,경기기후지도,https://climate.gg.go.kr/gcs/?lang=kor,L4 L5,"랜딩·히어로형, 카드·타일 메뉴형",주제별 지도(탄소공간·태양광·기후위기 등) 카드 메뉴
+s002_p0,국내,한국,생태계 기후대응 통합정보시스템,첫 화면,https://www.ecoclimate.or.kr/,K1 L5 E1 G1,"KPI·숫자 카드, 카드·타일 메뉴형, 인포그래픽·일러스트, 선그래프(시계열)","기온·강수 변화 KPI 카드+스파크라인, 아이콘 메뉴"
+s002_p1,국내,한국,생태계 기후대응 통합정보시스템,통합데이터 구축 과정,https://www.ecoclimate.or.kr/itr/ims/pub-introduce,L6 E1,"스토리텔링·기사형, 인포그래픽·일러스트","통합데이터 구축 과정 안내, 기관 로고 배치"
+s002_p2,국내,한국,생태계 기후대응 통합정보시스템,기후변화와 생태계,https://www.ecoclimate.or.kr/itr/rsk/climate-change,L6 E1,"스토리텔링·기사형, 인포그래픽·일러스트",탭으로 나눈 기후변화 해설 + 지구 일러스트
+s002_p3,국내,한국,생태계 기후대응 통합정보시스템,생태계 기후변화 리스크,https://www.ecoclimate.or.kr/itr/rsk/climate-risk,L6 E1,"스토리텔링·기사형, 인포그래픽·일러스트",생태계 리스크 유형을 일러스트 지도에 표시
+s003_p0,국내,한국,물모아,첫 화면,https://www.mulmoa.go.kr/web,L1 K1 K2 G3 L9,"대시보드형, KPI·숫자 카드, 게이지·진행바, 막대그래프, 검색 진입형",우리동네 물정보 카드형 대시보드(게이지·막대)
+s003_p0s,국내,한국,물모아,첫 화면(스크롤),https://www.mulmoa.go.kr/web,L5 E1,"카드·타일 메뉴형, 인포그래픽·일러스트",생활편의·안심·물정보 아이콘 카드 메뉴
+s003_p1,국내,한국,물모아,데이터 검색,https://www.mulmoa.go.kr/web/contents/70,L6 L5,"스토리텔링·기사형, 카드·타일 메뉴형","공간정보(GIS) 서비스 소개, 기능 카드"
+s003_p3,국내,한국,물모아,스마트대시보드(시범운영),https://www.mulmoa.go.kr/web/contents/61,L6,스토리텔링·기사형,스마트대시보드 소개 화면
+s004_p0,국내,한국,기상청 기후변화 상황지도,첫 화면,https://climate.go.kr/atlas/dsh/ccf,L1 G1 G3 G6 G7 M1 C3 K1,"대시보드형, 선그래프(시계열), 막대그래프, 기후 스트라이프, 히트맵 표, 단계구분도, 시나리오·기간 탭 전환, KPI·숫자 카드",어두운 배경 대시보드: SSP 시계열·스트라이프·단계구분도·KPI
+s004_p1,국내,한국,기상청 기후변화 상황지도,기상청 기후정보포털,http://climate.go.kr/home/,L5 G1 E1 L7,"카드·타일 메뉴형, 선그래프(시계열), 인포그래픽·일러스트, 목록·카탈로그형",포털 첫 화면: 이슈 카드(CO2 그래프)·공지 목록·아이콘 메뉴
+s004_p2,국내,한국,기상청 기후변화 상황지도,기후변화 상황지도,https://climate.go.kr/atlas/,L4 G3,"랜딩·히어로형, 막대그래프","상황지도 진입 화면, 미래 전망 막대(설문 팝업)"
+s004_p3,국내,한국,기상청 기후변화 상황지도,기후요소 빈도·강도,https://climate.go.kr/atlas/dsh/di,C2 G1 M1 C3,"화면 분할(다중 지도), 선그래프(시계열), 단계구분도, 시나리오·기간 탭 전환",극한지수 발생빈도 소형 다중 선그래프 + 시군구 지도
+s005_p0,국내,한국,국가가뭄정보포털,첫 화면,https://www.drought.go.kr/main.do,L4 E2 K1,"랜딩·히어로형, 사진·영상, KPI·숫자 카드",사진 히어로 + 가뭄 지자체·인구 KPI 카드
+s005_p0s,국내,한국,국가가뭄정보포털,첫 화면(스크롤),https://www.drought.go.kr/main.do,L7 E2,"목록·카탈로그형, 사진·영상",가뭄 뉴스 목록·영상·웹툰 카드
+s005_p1,국내,한국,국가가뭄정보포털,기후변화,https://www.drought.go.kr/menu/m30/m35.do,L6 L3,"스토리텔링·기사형, 좌측 설정·레이어 패널","가뭄 개념 해설, 하위 탭 + 주제 버튼"
+s005_p2,국내,한국,국가가뭄정보포털,뉴스분석,https://www.drought.go.kr/menu/m90/m97.do,M1 M3 L8 K3 G8,"단계구분도, 포인트·마커 지도, 데이터 표, 등급·신호등, 산점도·버블","뉴스 키워드 순위표 + 지역 버블 지도, 월별 비교"
+s005_p3,국내,한국,국가가뭄정보포털,우리동네가뭄,https://www.drought.go.kr/menu/onemap/oneMapMain.do?pagenm=dongne,L2 M3 L3 L9,"풀스크린 지도 뷰어, 포인트·마커 지도, 좌측 설정·레이어 패널, 검색 진입형",원맵 서비스: 좌측 주제 메뉴 + 지역 선택 지도
+s006_p0,국내,한국,에어코리아,첫 화면,https://www.airkorea.or.kr/web/,L2 M3 K3 L3 K4,"풀스크린 지도 뷰어, 포인트·마커 지도, 등급·신호등, 좌측 설정·레이어 패널, 색상 범례 강조",실시간 대기 지도 + 등급 색상 범례·우측 정보 패널
+s006_p1,국내,한국,에어코리아,초미세먼지 계절전망,https://www.airkorea.or.kr/web/board/12/?pMENU_NO=213,L7 L8,"목록·카탈로그형, 데이터 표",계절전망 게시판형 목록
+s006_p2,국내,한국,에어코리아,미세먼지 재난 위기경보 발령현황,https://www.airkorea.or.kr/web/pm25Calamity?pMENU_NO=226,L6 L8 C3,"스토리텔링·기사형, 데이터 표, 시나리오·기간 탭 전환",위기경보 해설 + 탭 + 발령현황 표
+s006_p3,국내,한국,에어코리아,황사 발생현황,https://www.airkorea.or.kr/web/yellowSandYear?pMENU_NO=118,L8,데이터 표,연도별 황사 발생현황 표
+s007_p0,국내,한국,생활안전지도,첫 화면,https://www.safemap.go.kr/main/smap.do,L4 L5 E1,"랜딩·히어로형, 카드·타일 메뉴형, 인포그래픽·일러스트",일러스트 첫 화면 + 서비스 카드 3종
+s007_p2,국내,한국,생활안전지도,스스로 우리의 안전을 지켜요! 생활안전지도 1. 치안  노인대상범죄주의구간  2. 치안  어린이대상범죄주의구,https://www.safemap.go.kr/main/smap_renewal.do,L2 M3 L3,"풀스크린 지도 뷰어, 포인트·마커 지도, 좌측 설정·레이어 패널",생활안전지도: 좌측 아이콘 메뉴 + 지점 마커 지도
+s007_p3,국내,한국,생활안전지도,통계 정보를 한눈에! 생활안전통계 교통  1등급  화재  4등급  범죄  3등급  생활안전  2등급  자살 ,https://www.safemap.go.kr/main/smapStatsRenew.do,M1 G3 L8 K3 L1,"단계구분도, 막대그래프, 데이터 표, 등급·신호등, 대시보드형","지역안전등급 단계구분도 + 막대 + 표, 연도 선택"
+s008_p0,아시아,일본,A-PLAT 기후변화 예측 WebGIS,첫 화면,https://adaptation-platform.nies.go.jp/webgis/,L5 M1,"카드·타일 메뉴형, 단계구분도",전국·지역 선택 타일맵(지방 블록)
+s008_p0s,아시아,일본,A-PLAT 기후변화 예측 WebGIS,첫 화면(스크롤),https://adaptation-platform.nies.go.jp/webgis/,M1 L5,"단계구분도, 카드·타일 메뉴형",도도부현 타일맵 선택 화면
+s008_p1,아시아,일본,A-PLAT 기후변화 예측 WebGIS,https://adaptation-platform.nies.go.jp/climate_change_adapt/index.html,https://adaptation-platform.nies.go.jp/climate_change_adapt/,L4 L6 K1 E2,"랜딩·히어로형, 스토리텔링·기사형, KPI·숫자 카드, 사진·영상",적응 해설 첫 화면: 사진 + 기온상승 KPI 카드
+s008_p2,아시아,일본,A-PLAT 기후변화 예측 WebGIS,気候変動とは,https://adaptation-platform.nies.go.jp/climate_change_adapt/adapt/a-0101.html,L6 E2,"스토리텔링·기사형, 사진·영상","해설 기사형, 쉬운설명/자세히 탭"
+s008_p3,아시아,일본,A-PLAT 기후변화 예측 WebGIS,気候変動の要因,https://adaptation-platform.nies.go.jp/climate_change_adapt/adapt/a-0102.html,L6 E2,"스토리텔링·기사형, 사진·영상","기후변화 요인 해설, 난이도 탭"
+s009_p0,유럽,네덜란드,Klimaateffectatlas,첫 화면,https://www.klimaateffectatlas.nl/nl/,L5 E1,"카드·타일 메뉴형, 인포그래픽·일러스트",지도뷰어·지도이야기·시나리오·동네대시보드 카드 메뉴
+s009_p2,유럽,네덜란드,Klimaateffectatlas,KAARTVERHALEN,https://www.klimaateffectatlas.nl/nl/kaartverhalen,L5 E1,"카드·타일 메뉴형, 인포그래픽·일러스트",위험유형(침수·폭염·가뭄·홍수)별 아이콘 지도 목록
+s010_p0,북미,미국,The Climate Explorer,첫 화면,https://crt-climate-explorer.nemac.org/,L9 L4 M5,"검색 진입형, 랜딩·히어로형, 위성·항공영상","도시·카운티 검색창 중심 첫 화면, 대표 도시 바로가기"
+s011_p0,유럽,EU,European Climate Data Explorer,첫 화면,https://climate-adapt.eea.europa.eu/en/eu-adaptation/assessing-climate-risks/european-climate-data-explorer,L5 E2 E4,"카드·타일 메뉴형, 사진·영상, 다운로드·공유 도구","지표 테마 사진 카드(건강·농업·임업), 공유·다운로드"
+s011_p0s,유럽,EU,European Climate Data Explorer,첫 화면(스크롤),https://climate-adapt.eea.europa.eu/en/eu-adaptation/assessing-climate-risks/european-climate-data-explorer,L5 E2,"카드·타일 메뉴형, 사진·영상",테마 사진 카드 + 기관 안내 푸터
+s011_p1,유럽,EU,European Climate Data Explorer,European Climate and health observatory,https://climate-adapt.eea.europa.eu/en/observatory,L4 E2,"랜딩·히어로형, 사진·영상",건강관측소 사진 히어로
+s011_p2,유럽,EU,European Climate Data Explorer,ClimateADAPT,https://climate-adapt.eea.europa.eu/en,L4 E2 E3,"랜딩·히어로형, 사진·영상, 챗봇·AI 도우미",기관 플랫폼 히어로 + AI 도우미(Ask Climate-ADAPT)
+s011_p3,유럽,EU,European Climate Data Explorer,Assessing Climate Risks,https://climate-adapt.eea.europa.eu/en/eu-adaptation/assessing-climate-risks,L6 E4,"스토리텔링·기사형, 다운로드·공유 도구","기후 리스크 평가 해설 문서형, 공유·다운로드"
+s012_p0,유럽,EU,Copernicus Interactive Climate Atlas,첫 화면,https://atlas.climate.copernicus.eu/atlas,L3 M4 C4 K4 E5,"좌측 설정·레이어 패널, 지구본(3D), 타임슬라이더·재생, 색상 범례 강조, 단계형 안내·튜토리얼","좌측 변수 패널 + 지구본 + 지구온난화 수준 슬라이더, 소개 팝업"
+s013_p0,북미,미국,Coastal Risk Finder,첫 화면,https://coastal.climatecentral.org/,L9 L4 L5 E2,"검색 진입형, 랜딩·히어로형, 카드·타일 메뉴형, 사진·영상",해수면 검색 히어로 + 추세·위험·해법·전망 카드
+s013_p1,북미,미국,Coastal Risk Finder,See all supported locations.,https://coastal.climatecentral.org/coastal-risk-finder/locations?tab=states,L7 L9,"목록·카탈로그형, 검색 진입형",지원 지역 목록(주·카운티 탭) + 필터 검색
+s013_p2,북미,미국,Coastal Risk Finder,Community leaders use Coastal Risk Finder to advocate for pe,https://coastal.climatecentral.org/coastal-risk-finder/community-leader,L6 E2,"스토리텔링·기사형, 사진·영상",사용자 유형별(지역 리더) 활용 안내
+s013_p3,북미,미국,Coastal Risk Finder,Government officials use Coastal Risk Finder to protect thei,https://coastal.climatecentral.org/coastal-risk-finder/government-official,L6 E2,"스토리텔링·기사형, 사진·영상",사용자 유형별(공무원) 활용 안내
+s014_p0,북미,미국,Cal-Adapt,첫 화면,https://cal-adapt.org/,L4 E2,"랜딩·히어로형, 사진·영상",풍경 사진 슬로건형 첫 화면
+s014_p0s,북미,미국,Cal-Adapt,첫 화면(스크롤),https://cal-adapt.org/,L5 E2,"카드·타일 메뉴형, 사진·영상",도구·가이드·데이터 사진 카드 메뉴
+s014_p1,북미,미국,Cal-Adapt,Climate Stories,https://cal-adapt.org/dashboard/climate-stories,L6 L7 E2,"스토리텔링·기사형, 목록·카탈로그형, 사진·영상",기후 스토리 목록(폭염·강수)
+s014_p2,북미,미국,Cal-Adapt,Climate Metrics Map,https://cal-adapt.org/dashboard/climate-metrics-map,L3 M2 K4 C3,"좌측 설정·레이어 패널, 격자·연속면 지도, 색상 범례 강조, 시나리오·기간 탭 전환",좌측 지표 선택 + 격자 지도 + 절대값/변화량 탭
+s014_p3,북미,미국,Cal-Adapt,Data Download Tool,https://cal-adapt.org/dashboard/data-download-tool,L3 L7 E4,"좌측 설정·레이어 패널, 목록·카탈로그형, 다운로드·공유 도구",데이터 다운로드 도구: 패키지 선택 목록 + 다운로드
+s015_p0,북미,미국,U.S. Climate Resilience Toolkit,첫 화면,https://toolkit.climate.gov/,L9 L5 E1,"검색 진입형, 카드·타일 메뉴형, 인포그래픽·일러스트",카운티 검색 + 아이콘 메뉴(단계·주제·교육)
+s015_p0s,북미,미국,U.S. Climate Resilience Toolkit,첫 화면(스크롤),https://toolkit.climate.gov/,L5 E2,"카드·타일 메뉴형, 사진·영상",인기 자료 사진 카드 캐러셀 + 전문가 찾기
+s015_p1,북미,미국,U.S. Climate Resilience Toolkit,Workforce Development,https://toolkit.climate.gov/climate-ready-workforce,L6 E2,"스토리텔링·기사형, 사진·영상",교육 프로그램 소개 + 사례 카드
+s015_p2,북미,미국,U.S. Climate Resilience Toolkit,Boston,https://toolkit.climate.gov/case-study/coastal-resilience-job-training-climate-housing-and-economic-development,L6 K3,"스토리텔링·기사형, 등급·신호등",사례 연구 상세: 위험·자산 태그 칩
+s015_p3,북미,미국,U.S. Climate Resilience Toolkit,Browse Tools,https://toolkit.climate.gov/tool,L7 L5,"목록·카탈로그형, 카드·타일 메뉴형","도구·데이터 카탈로그, 썸네일 카드"
+s016_p0,북미,미국,Sea Level Rise Viewer,첫 화면,https://coast.noaa.gov/digitalcoast/tools/slr.html,L4 E4,"랜딩·히어로형, 다운로드·공유 도구",도구 소개 히어로: 실행·다운로드·지도서비스 버튼
+s016_p0s,북미,미국,Sea Level Rise Viewer,첫 화면(스크롤),https://coast.noaa.gov/digitalcoast/tools/slr.html,L6 E2 E4,"스토리텔링·기사형, 사진·영상, 다운로드·공유 도구",도구 소개 영상 + 튜토리얼 링크
+s016_p1,북미,미국,Sea Level Rise Viewer,DATA,https://coast.noaa.gov/digitalcoast/data/home.html,L9 L4 M2,"검색 진입형, 랜딩·히어로형, 격자·연속면 지도","데이터 검색(키워드·지역) 히어로, 유형별 탐색"
+s016_p2,북미,미국,Sea Level Rise Viewer,TOOLS,https://coast.noaa.gov/digitalcoast/tools/home.html,L9 L4 E5,"검색 진입형, 랜딩·히어로형, 단계형 안내·튜토리얼",도구 검색 + 질문형 도구 찾기 안내
+s016_p3,북미,미국,Sea Level Rise Viewer,Catalog,https://coast.noaa.gov/digitalcoast/tools/,L7 L9,"목록·카탈로그형, 검색 진입형","도구 카탈로그: 검색·필터·정렬, 썸네일 그리드"
+s017_p0,북미,미국,Heat.gov,첫 화면,https://heat.gov/,L7 M1 K4,"목록·카탈로그형, 단계구분도, 색상 범례 강조",뉴스 목록 + 폭염 위험 단계구분도
+s017_p1,북미,미국,Heat.gov,Who is Most at Risk to Extreme Heat?,https://heat.gov/who-is-most-at-risk-to-extreme-heat/,L6 E1,"스토리텔링·기사형, 인포그래픽·일러스트",폭염 취약계층 안내 일러스트 카드
+s017_p2,북미,미국,Heat.gov,Mapping Campaign Program,https://heat.gov/urban-heat-islands-mapping-campaign-program/,L6 E2,"스토리텔링·기사형, 사진·영상",도시 열섬 지도화 캠페인 소개
+s017_p3,북미,미국,Heat.gov,Data & Tools,https://heat.gov/data-tools/,L7 M2,"목록·카탈로그형, 격자·연속면 지도",데이터·도구 목록 + 필터 6종
+s018_p0,북미,미국,U.S. Drought Monitor,첫 화면,https://droughtmonitor.unl.edu/,M1 K4,"단계구분도, 색상 범례 강조","주간 가뭄 단계구분도(D0~D4), 섬 지역 삽입 지도"
+s018_p0s,북미,미국,U.S. Drought Monitor,첫 화면(스크롤),https://droughtmonitor.unl.edu/,K4 E4,"색상 범례 강조, 다운로드·공유 도구",가뭄 강도 범례 해설 + 지도 다운로드 버튼
+s018_p2,북미,미국,U.S. Drought Monitor,Maps,https://droughtmonitor.unl.edu/Maps.aspx,L5 C1 C2 C4 M1,"카드·타일 메뉴형, 좌우 비교(스와이프), 화면 분할(다중 지도), 타임슬라이더·재생, 단계구분도",지도 메뉴: 두 주 비교·비교 슬라이더·애니메이션 카드
+s018_p3,북미,미국,U.S. Drought Monitor,Compare Two Weeks,https://droughtmonitor.unl.edu/Maps/CompareTwoWeeks.aspx,C2 M1 K4,"화면 분할(다중 지도), 단계구분도, 색상 범례 강조","두 주 가뭄지도 나란히 비교, 조건 선택"
+s019_p0,북미,미국,Climate.gov Maps & Data,첫 화면,https://www.climate.gov/maps-data,L5 E2,"카드·타일 메뉴형, 사진·영상",지도·데이터 도구 진입 타일(스냅샷·매퍼·입문서)
+s019_p0s,북미,미국,Climate.gov Maps & Data,첫 화면(스크롤),https://www.climate.gov/maps-data,L5 M3 M2,"카드·타일 메뉴형, 포인트·마커 지도, 격자·연속면 지도",인터랙티브 지도 도구 캐러셀 + 대시보드 지표 선택
+s019_p1,북미,미국,Climate.gov Maps & Data,Climate.gov SCIENCE & INFORMATION FOR A CLIMATE-SMART NATION,https://www.noaa.gov/climate,L4 E2 L5,"랜딩·히어로형, 사진·영상, 카드·타일 메뉴형",빙하 사진 히어로 + 좌측 아이콘 바·탭 메뉴
+s019_p2,북미,미국,Climate.gov Maps & Data,Beyond the Data Blog,https://www.climate.gov/news-features/blogs/beyond-data,L6 L7 M3,"스토리텔링·기사형, 목록·카탈로그형, 포인트·마커 지도",블로그 목록 + 재해 지도 기사
+s019_p3,북미,미국,Climate.gov Maps & Data,Climate And ...,https://www.climate.gov/news-features/climate-and,L7 E2,"목록·카탈로그형, 사진·영상",주제별 기사 목록(좌측 분류)
+s020_p0,북미,미국,Climate Reanalyzer,첫 화면,https://climatereanalyzer.org/,M4 M2 L5,"지구본(3D), 격자·연속면 지도, 카드·타일 메뉴형",지구본 이미지 + 텍스트 링크형 도구 목록
+s020_p1,북미,미국,Climate Reanalyzer,Today's Weather Maps,https://climatereanalyzer.org/wx/todays-weather/?var_id=t2&ortho=1&wt=1,M4 M2 K4 C3,"지구본(3D), 격자·연속면 지도, 색상 범례 강조, 시나리오·기간 탭 전환",변수 목록 선택 + 지구본 기온 격자 지도 + 색상 범례
+s020_p2,북미,미국,Climate Reanalyzer,Outlook Forecast Maps,https://climatereanalyzer.org/wx/fcst_outlook/?dm_id=arc-lea&ndays=d1-3,C2 M2 C3,"화면 분할(다중 지도), 격자·연속면 지도, 시나리오·기간 탭 전환","평균기온/편차 지도 나란히, 기간·권역 선택"
+s020_p3,북미,미국,Climate Reanalyzer,Hourly Forecast Maps,https://climatereanalyzer.org/wx/fcst/?mdl_id=hrrr&dm_id=conus-lc&wm_id=prcp-mslp-gph500,C4 M2 C3,"타임슬라이더·재생, 격자·연속면 지도, 시나리오·기간 탭 전환",모델·변수 선택 + 이미지 슬라이더(시간 재생)
+s021_p0,북미,미국,Climate at a Glance,첫 화면,https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/,L5 C3 E5,"카드·타일 메뉴형, 시나리오·기간 탭 전환, 단계형 안내·튜토리얼",공간단위 탭(전지구~도시) + 기능 카드(지도·시계열·순위) + 튜토리얼 영상
+s021_p0s,북미,미국,Climate at a Glance,첫 화면(스크롤),https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/,L6,스토리텔링·기사형,데이터 출처·방법 해설 텍스트
+s021_p1,북미,미국,Climate at a Glance,Climate Monitoring,https://www.ncei.noaa.gov/access/monitoring/products/,C2 M2 L8 K4,"화면 분할(다중 지도), 격자·연속면 지도, 데이터 표, 색상 범례 강조",국가 기온·강수 백분위 지도 나란히 + 수치 요약 표
+s021_p2,북미,미국,Climate at a Glance,Globe,https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global,L5 C3 E5,"카드·타일 메뉴형, 시나리오·기간 탭 전환, 단계형 안내·튜토리얼",전지구 탭 선택 기능 카드 + 튜토리얼
+s022_p0,북미,미국,Impact Map,첫 화면,https://impactlab.org/map/#usmeas=absolute&usyear=1986-2005&gyear=1986-2005,M1 C3 K4,"단계구분도, 시나리오·기간 탭 전환, 색상 범례 강조",카운티 단계구분도 + 절대값/변화량·기간·시나리오 탭
+s022_p1,북미,미국,Impact Map,Tools,https://impactlab.org/tools/,L5 M2 M4,"카드·타일 메뉴형, 격자·연속면 지도, 지구본(3D)",도구 카드(지도·지구본 썸네일) 그리드
+s022_p2,북미,미국,Impact Map,https://impactlab.org/adaptation-roadmap/,https://impactlab.org/adaptation-roadmap/,L6 E2,"스토리텔링·기사형, 사진·영상",로드맵 시리즈 사진 + 기사형 소개
+s022_p3,북미,미국,Impact Map,"Gergel et al, 2024",https://impactlab.org/research/global-downscaled-projections-for-climate-impacts-research-gdpcir-preserving-quantile-trends-for-modeling-future-climate-impacts/,L6,스토리텔링·기사형,연구 논문 초록 페이지
+s023_p0,북미,미국,Climate Shift Index,첫 화면,https://www.climatecentral.org/climate-shift-index,L6 C3,"스토리텔링·기사형, 시나리오·기간 탭 전환","지수 해설 페이지 + 하위 지수 탭, 쿠키 배너"
+s023_p0s,북미,미국,Climate Shift Index,첫 화면(스크롤),https://www.climatecentral.org/climate-shift-index,L8 K3 K4,"데이터 표, 등급·신호등, 색상 범례 강조",기후변화지수 단계(-5~+5) 색상 등급 해설 표
+s023_p1,북미,미국,Climate Shift Index,Climate Central,https://www.climatecentral.org/,L9 L4 E2,"검색 진입형, 랜딩·히어로형, 사진·영상",“내 지역 기후 이야기” 검색 히어로
+s023_p2,북미,미국,Climate Shift Index,https://www.climatecentral.org/climate-local,https://www.climatecentral.org/climate-local,L9,검색 진입형,위치 검색 단일 진입 화면
+s023_p3,북미,미국,Climate Shift Index,https://www.climatecentral.org/tools/climate-indicators,https://www.climatecentral.org/tools/climate-indicators,K1 L5 E2,"KPI·숫자 카드, 카드·타일 메뉴형, 사진·영상",북극해빙·전지구 기온 KPI 카드 캐러셀 + 핵심 사실
+s024_p0,북미,미국,U.S. Climate Vulnerability Index,첫 화면,https://climatevulnerabilityindex.org/,L4 M1 K4,"랜딩·히어로형, 단계구분도, 색상 범례 강조","취약성지수 소개 히어로, 지수 구성 범례"
+s024_p0s,북미,미국,U.S. Climate Vulnerability Index,첫 화면(스크롤),https://climatevulnerabilityindex.org/,L5 E2,"카드·타일 메뉴형, 사진·영상",파트너·자료·방법론 3단 안내
+s024_p1,북미,미국,U.S. Climate Vulnerability Index,Launch the U.S. Climate Vulnerability Index,https://map.climatevulnerabilityindex.org/map/cvi_overall/usa?mapBoundaries=Tract&mapFilter=0&reportBoundaries=Tract&geoContext=State,L2 M1 L3 E5,"풀스크린 지도 뷰어, 단계구분도, 좌측 설정·레이어 패널, 단계형 안내·튜토리얼","취약성 지도 + 지표 트리 패널, 시작 안내 팝업"
+s025_p0,북미,미국,Aqueduct,첫 화면,https://www.wri.org/aqueduct,L4 E2 M5,"랜딩·히어로형, 사진·영상, 위성·항공영상",항공사진 히어로 + 물 위험 도구 실행 버튼
+s025_p0s,북미,미국,Aqueduct,첫 화면(스크롤),https://www.wri.org/aqueduct,L6 M1,"스토리텔링·기사형, 단계구분도",도구 해설 + 물 위험 단계구분도
+s025_p1,북미,미국,Aqueduct,DATA,https://www.wri.org/data,L4 E2,"랜딩·히어로형, 사진·영상",데이터 소개 사진 히어로
+s025_p2,북미,미국,Aqueduct,https://www.wri.org/climate,https://www.wri.org/climate,L4 E2,"랜딩·히어로형, 사진·영상",기관 슬로건 사진 히어로
+s025_p3,북미,미국,Aqueduct,Explore WRI Perspectives,https://www.wri.org/insights,L6 L7 E2,"스토리텔링·기사형, 목록·카탈로그형, 사진·영상",인사이트 기사 목록
+s026_p0,북미,미국,Probable Futures,첫 화면,https://probablefutures.org/,L4,랜딩·히어로형,큰 문구 중심 첫 화면(서체 강조)
+s026_p0s,북미,미국,Probable Futures,첫 화면(스크롤),https://probablefutures.org/,L6 M2 C3,"스토리텔링·기사형, 격자·연속면 지도, 시나리오·기간 탭 전환",스크롤 소개 + 온난화 수준 탭 지도 미리보기
+s026_p1,북미,미국,Probable Futures,Read the climate handbook,https://probablefutures.org/climate-handbook/,L6 L4 E2,"스토리텔링·기사형, 랜딩·히어로형, 사진·영상",기후 핸드북 소개 + 사진 콜라주
+s026_p2,북미,미국,Probable Futures,Risk,https://probablefutures.org/risk/,L6 E2 E5,"스토리텔링·기사형, 사진·영상, 단계형 안내·튜토리얼",장·절 단계 내비게이션 + 사진 기사
+s027_p0,북미,캐나다,ClimateData.ca,첫 화면,https://climatedata.ca/?,L4 E2,"랜딩·히어로형, 사진·영상",사진 히어로 + 데이터 찾기 안내 캐러셀
+s027_p0s,북미,캐나다,ClimateData.ca,첫 화면(스크롤),https://climatedata.ca/?,L6 M3 E4,"스토리텔링·기사형, 포인트·마커 지도, 다운로드·공유 도구","시각화 만들기·다운로드 소개, 마커 일러스트 지도"
+s027_p1,북미,캐나다,ClimateData.ca,Maps,https://climatedata.ca/maps/?var=hottest_day&th=tx_max&dataset=216&dataOpacity=100&labelOpacity=100&lat=62.51232&lng=-98.52539&zoom=4,L3 M2 C4 K4 C3 E4,"좌측 설정·레이어 패널, 격자·연속면 지도, 타임슬라이더·재생, 색상 범례 강조, 시나리오·기간 탭 전환, 다운로드·공유 도구","좌측 시나리오·기간 패널 + 격자 지도 + 연도 슬라이더, 공유·다운로드"
+s027_p2,북미,캐나다,ClimateData.ca,EXPLORE VARIABLES,https://climatedata.ca/variables/?,L7 M2,"목록·카탈로그형, 격자·연속면 지도",변수 라이브러리: 지도 썸네일 카드 + 필터
+s027_p3,북미,캐나다,ClimateData.ca,GRIDDED HISTORICAL DATA How are weather station observations,https://climatedata.ca/resource/gridded-historical-data/,L6 E2,"스토리텔링·기사형, 사진·영상",교육 모듈(영상) 상세
+s028_p0,북미,캐나다,Climate Atlas of Canada,첫 화면,https://climateatlas.ca/,L4 E1,"랜딩·히어로형, 인포그래픽·일러스트",원주민 언어 환영 문구 + 지도 일러스트 히어로
+s028_p0s,북미,캐나다,Climate Atlas of Canada,첫 화면(스크롤),https://climateatlas.ca/,L6 E1,"스토리텔링·기사형, 인포그래픽·일러스트",주제 콘텐츠 일러스트 소개
+s028_p1,북미,캐나다,Climate Atlas of Canada,Map,https://climateatlas.ca/map/canada/plus30_2030_85#,L2 K4 E5,"풀스크린 지도 뷰어, 색상 범례 강조, 단계형 안내·튜토리얼",지도 위 변수 설명 오버레이(시나리오·기간·범례)
+s028_p2,북미,캐나다,Climate Atlas of Canada,Climate Science,https://climateatlas.ca/topic/climate-science,L6 E5,"스토리텔링·기사형, 단계형 안내·튜토리얼",과학 해설 + 번호형 핵심 메시지
+s028_p3,북미,캐나다,Climate Atlas of Canada,Find local data,https://climateatlas.ca/find-local-data,E5 L9 M2 L3,"단계형 안내·튜토리얼, 검색 진입형, 격자·연속면 지도, 좌측 설정·레이어 패널",위치→변수→표출유형 3단계 안내 + 지역 선택 지도
+s029_p1,유럽,영국,Local Authority Climate Service,https://climatedataportal.metoffice.gov.uk/pages/understanding-the-data,https://climatedataportal.metoffice.gov.uk/pages/understanding-the-data,L6,스토리텔링·기사형,데이터 이해 안내 문서
+s029_p2,유럽,영국,Local Authority Climate Service,Assess Your Risk,https://climatedataportal.metoffice.gov.uk/pages/lacs-assess-your-risk,L4 E2,"랜딩·히어로형, 사진·영상",리스크 평가 진입 사진 히어로
+s030_p0,유럽,영국,UKCP18,첫 화면,https://www.metoffice.gov.uk/research/approach/collaboration/ukcp,L4 M2,"랜딩·히어로형, 격자·연속면 지도",기압 지도 배경 히어로 + 소개문
+s030_p0s,유럽,영국,UKCP18,첫 화면(스크롤),https://www.metoffice.gov.uk/research/approach/collaboration/ukcp,L6,스토리텔링·기사형,기후전망 사업 해설 텍스트
+s030_p1,유럽,영국,UKCP18,Climate research,https://www.metoffice.gov.uk/research/climate,L6 M6 E2,"스토리텔링·기사형, 흐름 애니메이션, 사진·영상",연구 분야 소개(흐름 이미지 배너)
+s030_p2,유럽,영국,UKCP18,"Climate, cryosphere and oceans",https://www.metoffice.gov.uk/research/climate/cryosphere-oceans,L6 E2,"스토리텔링·기사형, 사진·영상",빙권·해양 연구 소개
+s030_p3,유럽,영국,UKCP18,Climate impacts,https://www.metoffice.gov.uk/research/climate/climate-impacts,L6 M4,"스토리텔링·기사형, 지구본(3D)",기후영향 연구 소개(지구본 이미지)
+s031_p0,유럽,영국,Climate Just,첫 화면,https://www.climatejust.org.uk/,L5 E2 E1,"카드·타일 메뉴형, 사진·영상, 인포그래픽·일러스트",웹도구 소개 + 영상 + 아이콘 메뉴 + 사례 카드
+s031_p0s,유럽,영국,Climate Just,첫 화면(스크롤),https://www.climatejust.org.uk/,L5 M1 E5,"카드·타일 메뉴형, 단계구분도, 단계형 안내·튜토리얼",핵심 질문형 메뉴(누가 취약한가 등) + 지도 배경
+s031_p1,유럽,영국,Climate Just,Why does climate justice matter?,https://www.climatejust.org.uk/why-does-climate-justice-matter,L6 E2,"스토리텔링·기사형, 사진·영상",기후정의 해설 + 관련 자료 카드
+s032_p0,유럽,영국,Check your long term flood risk,첫 화면,https://check-long-term-flood-risk.service.gov.uk/postcode,L9 E5,"검색 진입형, 단계형 안내·튜토리얼",“어디를 확인할까요?” 우편번호 입력 단계형 서비스(GOV.UK)
+s032_p1,유럽,영국,Check your long term flood risk,view a map showing areas at risk of flooding,https://check-long-term-flood-risk.service.gov.uk/information-for-planning,L6 E5,"스토리텔링·기사형, 단계형 안내·튜토리얼",질문형 단계 안내(계획 신청 여부)
+s032_p2,유럽,영국,Check your long term flood risk,Get flood risk data,https://check-long-term-flood-risk.service.gov.uk/risk-data,L6 E4,"스토리텔링·기사형, 다운로드·공유 도구","홍수위험 데이터 받기 안내, 목차형"
+s033_p0,유럽,EU,Climate-ADAPT,첫 화면,https://climate-adapt.eea.europa.eu/en,L4 E2 E3,"랜딩·히어로형, 사진·영상, 챗봇·AI 도우미",기관 플랫폼 히어로 + AI 도우미
+s033_p0s,유럽,EU,Climate-ADAPT,첫 화면(스크롤),https://climate-adapt.eea.europa.eu/en,E3 L5 E2,"챗봇·AI 도우미, 카드·타일 메뉴형, 사진·영상",AI 검색 도우미 버튼 + 도구 내비게이터 + 주제 사진 카드
+s033_p1,유럽,EU,Climate-ADAPT,European Climate and health observatory,https://climate-adapt.eea.europa.eu/en/observatory,L4 E2,"랜딩·히어로형, 사진·영상",건강관측소 사진 히어로
+s033_p2,유럽,EU,Climate-ADAPT,Learn more about Climate-ADAPT,https://climate-adapt.eea.europa.eu/en/about,L6 E4,"스토리텔링·기사형, 다운로드·공유 도구","기관 소개 핵심 메시지, 공유·다운로드"
+s033_p3,유럽,EU,Climate-ADAPT,Open the Navigator of Climate Resilience Tools,https://climate-adapt.eea.europa.eu/en/en/navigator,L6 E3 E5,"스토리텔링·기사형, 챗봇·AI 도우미, 단계형 안내·튜토리얼",도구 찾기 3가지 방법 + AI 검색 안내
+s034_p0,유럽,EU,Climate Pulse,첫 화면,https://pulse.climate.copernicus.eu/,L1 G1 G2 M4 K4 C3 E4,"대시보드형, 선그래프(시계열), 범위밴드 그래프, 지구본(3D), 색상 범례 강조, 시나리오·기간 탭 전환, 다운로드·공유 도구","일별 기온 시계열(과거 범위 밴드)+편차 지구본, 절대값/편차·기간 탭"
+s035_p0,유럽,EU,European State of the Climate,첫 화면,https://climate.copernicus.eu/ESOTC,L6,스토리텔링·기사형,연례 기후보고서 소개 텍스트
+s035_p0s,유럽,EU,European State of the Climate,첫 화면(스크롤),https://climate.copernicus.eu/ESOTC,L6 L7 E1,"스토리텔링·기사형, 목록·카탈로그형, 인포그래픽·일러스트",연도별 보고서 타임라인 카드
+s035_p1,유럽,EU,European State of the Climate,Climate Change Service,https://climate.copernicus.eu/,L4 E1 M1,"랜딩·히어로형, 인포그래픽·일러스트, 단계구분도",기후 하이라이트 배너 캐러셀 + 여름 리뷰 지도 카드
+s035_p2,유럽,EU,European State of the Climate,Climate Intelligence,https://climate.copernicus.eu/climate-intelligence,L6,스토리텔링·기사형,기후정보 서비스 소개
+s035_p3,유럽,EU,European State of the Climate,About,https://climate.copernicus.eu/ESOTC/2019/about-european-state-climate-2019,L4 E2,"랜딩·히어로형, 사진·영상",보고서 소개 사진 배너
+s037_p0,유럽,EU,GloFAS,첫 화면,https://global-flood.emergency.copernicus.eu/,L4 M1 L3,"랜딩·히어로형, 단계구분도, 좌측 설정·레이어 패널",계절 홍수 전망 지도 배너 캐러셀 + 레이어 패널 미리보기
+s037_p2,유럽,EU,GloFAS,Map Viewer Information,https://global-flood.emergency.copernicus.eu/general-information/forecast-viewer-info/,L6,스토리텔링·기사형,지도뷰어 레이어 구성 해설 문서
+s037_p3,유럽,EU,GloFAS,Map viewer,https://global-flood.emergency.copernicus.eu/general-information/data-access/,L6,스토리텔링·기사형,지도뷰어 안내 문서
+s038_p0,유럽,EU,European/Global Drought Observatory,첫 화면,https://drought.emergency.copernicus.eu/,L4 E2 M2 K4,"랜딩·히어로형, 사진·영상, 격자·연속면 지도, 색상 범례 강조",관측소 배너 + 유럽·전지구 가뭄지수 지도 2종
+s038_p0s,유럽,EU,European/Global Drought Observatory,첫 화면(스크롤),https://drought.emergency.copernicus.eu/,L6 K4 L5,"스토리텔링·기사형, 색상 범례 강조, 카드·타일 메뉴형",가뭄 현황 요약 카드 + 분석 보고서 썸네일
+s038_p1,유럽,EU,European/Global Drought Observatory,European Observatory,https://drought.emergency.copernicus.eu/tumbo/edo/map/,L2 L3 M2 K3 K4,"풀스크린 지도 뷰어, 좌측 설정·레이어 패널, 격자·연속면 지도, 등급·신호등, 색상 범례 강조",가뭄지수 격자 지도 + 좌측 레이어 패널(경계·주의·경보 범례)
+s038_p2,유럽,EU,European/Global Drought Observatory,Global Observatory,https://drought.emergency.copernicus.eu/tumbo/gdo/map/,L2 L3 M1 K3,"풀스크린 지도 뷰어, 좌측 설정·레이어 패널, 단계구분도, 등급·신호등",농업 가뭄위험 지도 + 국가별 위험 등급 목록
+s038_p3,유럽,EU,European/Global Drought Observatory,https://drought.emergency.copernicus.eu/data/factsheet,https://drought.emergency.copernicus.eu/data/factsheet,L8 L7,"데이터 표, 목록·카탈로그형",팩트시트 표(분류별 접기 목록)
+s039_p0,유럽,독일,Deutscher Klimaatlas,첫 화면,https://www.dwd.de/DE/klimaumwelt/klimaatlas/klimaatlas_node.html,C2 M2 K4,"화면 분할(다중 지도), 격자·연속면 지도, 색상 범례 강조",과거·현재·미래 기온 지도 3장 나란히
+s039_p0s,유럽,독일,Deutscher Klimaatlas,첫 화면(스크롤),https://www.dwd.de/DE/klimaumwelt/klimaatlas/klimaatlas_node.html,L6,스토리텔링·기사형,기후아틀라스 소개 텍스트 + 링크 목록
+s039_p2,유럽,독일,Deutscher Klimaatlas,En,https://www.dwd.de/EN/climate_environment/climateatlas/climateatlas_node.html;jsessionid=D21D12632051BEFCA7589FD3811154A7.live21074,C2 M2 C3 K4,"화면 분할(다중 지도), 격자·연속면 지도, 시나리오·기간 탭 전환, 색상 범례 강조",기후평년·올해·시나리오 지도 나란히 + 요소·기간·시나리오 드롭다운
+s039_p3,유럽,독일,Deutscher Klimaatlas,EN,https://www.dwd.de/EN/ourservices/germanclimateatlas/germanclimateatlas.html;jsessionid=D21D12632051BEFCA7589FD3811154A7.live21074,L6 E2,"스토리텔링·기사형, 사진·영상",기후아틀라스 소개 + 시작 버튼
+s040_p0,유럽,독일,KLiVO Portal,첫 화면,https://www.klivoportal.de/DE/Home/home_node.html,L4 E2,"랜딩·히어로형, 사진·영상",사진 캐러셀 히어로 + 인용 카드
+s040_p0s,유럽,독일,KLiVO Portal,첫 화면(스크롤),https://www.klivoportal.de/DE/Home/home_node.html,L9 E1,"검색 진입형, 인포그래픽·일러스트",빠른 검색창 + 품질 보증 아이콘 3종
+s040_p1,유럽,독일,KLiVO Portal,Wissensportal und Webtool Infoportal Hitze und Gesundheit Fo,https://www.klivoportal.de/SharedDocs/Steckbriefe/DE/infoportal_hitze/infoportal_hitze_steckbrief.html,L6 L7,"스토리텔링·기사형, 목록·카탈로그형",서비스(폭염·건강 포털) 상세: 분류·발행기관 메타정보
+s040_p2,유럽,독일,KLiVO Portal,Klimainformation DAS-Klimadaten Küste Foto: Bundesamt für Se,https://www.klivoportal.de/SharedDocs/Steckbriefe/DE/bsh_das-klimadaten_kueste/bsh_das-klimadaten_kueste_steckbrief.html,L6 L7 M2,"스토리텔링·기사형, 목록·카탈로그형, 격자·연속면 지도",서비스(해안 기후데이터) 상세 + 지도 썸네일
+s041_p0,유럽,독일,Klimaatlas NRW,첫 화면,https://www.klimaatlas.nrw.de/,L5 E1,"카드·타일 메뉴형, 인포그래픽·일러스트",공지 배너 + 4개 서비스 아이콘 카드
+s041_p0s,유럽,독일,Klimaatlas NRW,첫 화면(스크롤),https://www.klimaatlas.nrw.de/,L6 E2,"스토리텔링·기사형, 사진·영상",기후 소식 사진 캐러셀
+s041_p1,유럽,독일,Klimaatlas NRW,Klima NRW,https://www.klimaatlas.nrw.de/klima-nrw-karte,L2 L3 M1,"풀스크린 지도 뷰어, 좌측 설정·레이어 패널, 단계구분도",좌측 주제 레이어·투명도 패널 + 지도 + 우측 범례·설명
+s041_p2,유럽,독일,Klimaatlas NRW,Klima NRW.Plus,https://www.klimaatlas.nrw.de/klima-nrw-pluskarte,L2 L3 M1,"풀스크린 지도 뷰어, 좌측 설정·레이어 패널, 단계구분도",주제 레이어 목록 확장 + 지도 + 설명 패널
+s042_p0,유럽,오스트리아,Klimadashboard.at,첫 화면,https://klimadashboard.at/,L1 L9 K1 G1 E2,"대시보드형, 검색 진입형, KPI·숫자 카드, 선그래프(시계열), 사진·영상",지역 검색 + KPI 타일(재생에너지·배출·CO2 가격) 대시보드
+s042_p0s,유럽,오스트리아,Klimadashboard.at,첫 화면(스크롤),https://klimadashboard.at/,K1 G1 L1,"KPI·숫자 카드, 선그래프(시계열), 대시보드형",가스 사용·CO2 농도·온도상승 KPI + 스파크라인 다크 카드
+s042_p1,유럽,오스트리아,Klimadashboard.at,Permalink,https://klimadashboard.at/charts/bab3d362-cd9c-4498-9a43-28376a757c87?region=d4312cfd-1d4e-41e6-8fbc-b6da675be073,G9 G4 C4 C3,"트리맵·단위 차트, 누적·영역 그래프, 타임슬라이더·재생, 시나리오·기간 탭 전환","배출 부문별 트리맵 + 누적 영역그래프, 연도 슬라이더"
+s042_p2,유럽,오스트리아,Klimadashboard.at,Treibhausgasbudget,https://klimadashboard.at/charts/08b66905-503f-44d1-b086-d7d59190a0e6,G9 K2 E1,"트리맵·단위 차트, 게이지·진행바, 인포그래픽·일러스트",탄소예산을 칸 단위(와플)로 표현
+s042_p3,유럽,오스트리아,Klimadashboard.at,Globale Emissionen pro Kopf,https://klimadashboard.at/charts/09f58d50-09de-4dff-8421-99ec324f88c0,G3 E4,"막대그래프, 다운로드·공유 도구","국가별 1인당 배출 가로 막대, 공유·임베드"
+s043_p0,유럽,스위스,NCCS 기후시나리오(CH2018→CH2025),첫 화면,https://www.nccs.admin.ch/nccs/de/home.html,L5 L7 E2,"카드·타일 메뉴형, 목록·카탈로그형, 사진·영상",공지 + 주요 기사·뉴스 목록
+s043_p0s,유럽,스위스,NCCS 기후시나리오(CH2018→CH2025),첫 화면(스크롤),https://www.nccs.admin.ch/nccs/de/home.html,L5 E2,"카드·타일 메뉴형, 사진·영상",주제 사진 카드 그리드
+s043_p1,유럽,스위스,NCCS 기후시나리오(CH2018→CH2025),Übersicht,https://www.nccs.admin.ch/nccs/de/home/sitemap.html,L7,목록·카탈로그형,사이트맵형 전체 메뉴 목록
+s043_p2,유럽,스위스,NCCS 기후시나리오(CH2018→CH2025),Materialien und Daten,https://www.nccs.admin.ch/nccs/de/home/materialien-und-daten.html,L5 E2,"카드·타일 메뉴형, 사진·영상",자료(데이터·출판물·영상) 카드 + 하위 목록
+s043_p3,유럽,스위스,NCCS 기후시나리오(CH2018→CH2025),Klimaprogramm Bildung und Kommunikation,https://www.nccs.admin.ch/nccs/de/home/massnahmen/kommunikation-und-bildung.html,L6,스토리텔링·기사형,교육 프로그램 소개 문서
+s044_p0,유럽,프랑스,DRIAS les futurs du climat,첫 화면,https://www.drias-climat.fr/,L6 M2 K4 E2,"스토리텔링·기사형, 격자·연속면 지도, 색상 범례 강조, 사진·영상",기후전망 포털 첫 화면: 배너 + 프랑스 기온 격자 지도 + 소식
+s045_p0,유럽,프랑스,Climadiag Commune,첫 화면,https://meteofrance.com/climadiag-commune,L9 C3 E1,"검색 진입형, 시나리오·기간 탭 전환, 인포그래픽·일러스트",“우리 지자체는 어떻게 적응?” 코뮌 검색 + 2030/2050/2100 탭 + 일러스트
+s045_p0s,유럽,프랑스,Climadiag Commune,첫 화면(스크롤),https://meteofrance.com/climadiag-commune,L9 C3 E1,"검색 진입형, 시나리오·기간 탭 전환, 인포그래픽·일러스트",기간 탭·코뮌 검색 일러스트 화면(스크롤)
+s045_p1,유럽,프랑스,Climadiag Commune,Carte des prévisions,https://meteofrance.com/,M3 C3 L7,"포인트·마커 지도, 시나리오·기간 탭 전환, 목록·카탈로그형",날씨 아이콘 지도 + 기간 탭 + 뉴스 목록
+s045_p2,유럽,프랑스,Climadiag Commune,Qui sommes-nous ?,https://meteofrance.com/carte-didentite-de-meteo-france,L4 M5,"랜딩·히어로형, 위성·항공영상",위성영상 배경 슬로건 히어로
+s046_p0,유럽,프랑스,Géorisques,첫 화면,https://www.georisques.gouv.fr/,L9 L5 E1,"검색 진입형, 카드·타일 메뉴형, 인포그래픽·일러스트",“우리 집 주변 위험 알기” 주소 검색 + 사용자 유형 아이콘 카드
+s046_p0s,유럽,프랑스,Géorisques,첫 화면(스크롤),https://www.georisques.gouv.fr/,L5 L7 E2,"카드·타일 메뉴형, 목록·카탈로그형, 사진·영상",안내 카드 + 위험 소식 사진 카드
+s046_p1,유럽,프랑스,Géorisques,https://www.georisques.gouv.fr/acceder-la-carte-interactive-aux-bases-de-donnees-et-lapi,https://www.georisques.gouv.fr/acceder-la-carte-interactive-aux-bases-de-donnees-et-lapi,L6 E1 E4,"스토리텔링·기사형, 인포그래픽·일러스트, 다운로드·공유 도구",인터랙티브 지도·DB·API 안내 + 일러스트
+s046_p2,유럽,프랑스,Géorisques,ou recherchez sur une carte...,https://www.georisques.gouv.fr/citoyen-recherche-map,L9 E5 M3,"검색 진입형, 단계형 안내·튜토리얼, 포인트·마커 지도",우편번호 입력 → 지도에서 지점 찍기 단계 안내
+s046_p3,유럽,프랑스,Géorisques,Plan du site,https://www.georisques.gouv.fr/sitemap,L7,목록·카탈로그형,코뮌별 위험보고서 URL 목록
+s047_p0,유럽,네덜란드,KNMI'23 기후시나리오,첫 화면,https://www.knmi.nl/kennis-en-datacentrum/achtergrond/knmi-23-klimaatscenario-s,L4 E1,"랜딩·히어로형, 인포그래픽·일러스트",시나리오 소개 3D 일러스트 히어로(현재/미래 반반)
+s047_p0s,유럽,네덜란드,KNMI'23 기후시나리오,첫 화면(스크롤),https://www.knmi.nl/kennis-en-datacentrum/achtergrond/knmi-23-klimaatscenario-s,L6 E2,"스토리텔링·기사형, 사진·영상",시나리오 해설 + 소개 영상 + 자료 링크
+s047_p1,유럽,네덜란드,KNMI'23 기후시나리오,Kennis & uitleg,https://www.knmi.nl/kennis-en-datacentrum,L9 L5 E2,"검색 진입형, 카드·타일 메뉴형, 사진·영상",지식 검색창 + 주요 주제 사진 카드
+s047_p2,유럽,네덜란드,KNMI'23 기후시나리오,Achtergrond,https://www.knmi.nl/kennis-en-datacentrum/zoekresultaten?type=data_center_article,L7 L9,"목록·카탈로그형, 검색 진입형",검색 결과 목록 + 유형 필터
+s047_p3,유럽,네덜란드,KNMI'23 기후시나리오,toolkit KNMI'23-klimaatscenario's.,https://www.knmi.nl/klimaatscenarios23-toolkit,L6 E4,"스토리텔링·기사형, 다운로드·공유 도구",시나리오 툴킷: 보고서·이미지 다운로드 목록
+s048_p0,유럽,노르웨이,Norsk klimaservicesenter,첫 화면,https://klimaservicesenter.no/,L4 E2 M1,"랜딩·히어로형, 사진·영상, 단계구분도",사진 히어로 + 기후 프로필 선택 지도
+s048_p0s,유럽,노르웨이,Norsk klimaservicesenter,첫 화면(스크롤),https://klimaservicesenter.no/,L5 G1 G3 E1,"카드·타일 메뉴형, 선그래프(시계열), 막대그래프, 인포그래픽·일러스트",요소별 아이콘 버튼 + 그래프 썸네일 카드
+s048_p1,유럽,노르웨이,Norsk klimaservicesenter,Lenke til kommunevise klimaprofiler,https://klimaservicesenter.no/kss/klimaprofiler/kommunevise-klimaprofiler,L6 L9,"스토리텔링·기사형, 검색 진입형",지자체별 기후프로필 소개 + 지자체 검색 링크
+s048_p2,유럽,노르웨이,Norsk klimaservicesenter,Klimaframskrivninger  Estimerte klimaendringer mot år 2100,https://klimaservicesenter.no/climateprojections?index=diff-tas&period=annual&scenario=ssp370&area=99,C3 G1 L3,"시나리오·기간 탭 전환, 선그래프(시계열), 좌측 설정·레이어 패널",지수·계절·시나리오·지역 드롭다운 + 기간 탭 + 변화 그래프
+s049_p0,유럽,스웨덴,SMHI Framtidens klimat,첫 화면,https://www.smhi.se/klimat/framtidens-klimat,L4 E2,"랜딩·히어로형, 사진·영상",항공사진 히어로(쿠키 배너)
+s049_p0s,유럽,스웨덴,SMHI Framtidens klimat,첫 화면(스크롤),https://www.smhi.se/klimat/framtidens-klimat,L5 E2,"카드·타일 메뉴형, 사진·영상",주제 사진 카드 + 좌측 하위 메뉴
+s049_p1,유럽,스웨덴,SMHI Framtidens klimat,In English,https://www.smhi.se/en/climate/tools-and-inspiration/climate-change-scenario,L4 E2,"랜딩·히어로형, 사진·영상",도구 소개 사진 히어로
+s049_p2,유럽,스웨덴,SMHI Framtidens klimat,Klimatscenariotjänsten,https://www.smhi.se/klimat/framtidens-klimat/klimatscenariotjansten,L4 E2 M2,"랜딩·히어로형, 사진·영상, 격자·연속면 지도",모바일 화면 속 시나리오 지도 이미지 히어로
+s049_p3,유럽,스웨덴,SMHI Framtidens klimat,Skyfallsstatistik: Regional statistik för extrema korttidsre,https://www.smhi.se/klimat/framtidens-klimat/skyfallsstatistik-regional-statistik-for-extrema-korttidsregn,L6 L3 C3,"스토리텔링·기사형, 좌측 설정·레이어 패널, 시나리오·기간 탭 전환",극한강우 통계: 지역 라디오·지속시간 입력 폼
+s051_p0,유럽,핀란드,Ilmasto-opas.fi,첫 화면,https://www.ilmasto-opas.fi/etusivu,L4 L5 M1,"랜딩·히어로형, 카드·타일 메뉴형, 단계구분도",문구 히어로 + 바로가기 버튼 + 시나리오 지도 썸네일
+s051_p0s,유럽,핀란드,Ilmasto-opas.fi,첫 화면(스크롤),https://www.ilmasto-opas.fi/etusivu,L5 C2 M1 E2,"카드·타일 메뉴형, 화면 분할(다중 지도), 단계구분도, 사진·영상",기간별 핀란드 지도 4장 나란히(썸네일) + 기사 카드
+s051_p1,유럽,핀란드,Ilmasto-opas.fi,Ilmastonmuutos kasvattaa metsäpaloriskiä Fennoskandiassa,https://www.ilmasto-opas.fi/artikkelit/ilmastonmuutos-kasvattaa-metsapaloriskia-fennoskandiassa,L6 E1 E4,"스토리텔링·기사형, 인포그래픽·일러스트, 다운로드·공유 도구",인포그래픽 기사 + PDF·PNG 다운로드
+s052_p0,유럽,스페인,AdapteCCa 시나리오 뷰어,첫 화면,https://escenarios.adaptecca.es/info,L3 M2 E5,"좌측 설정·레이어 패널, 격자·연속면 지도, 단계형 안내·튜토리얼",시나리오 뷰어 환영 안내창(매뉴얼·데이터 설명) + 좌측 설정 패널
+s053_p0,유럽,아일랜드,Climate Ireland,첫 화면,https://www.climateireland.ie/,L4 M4 M5,"랜딩·히어로형, 지구본(3D), 위성·항공영상",위성 지구본 히어로(쿠키 창)
+s053_p0s,유럽,아일랜드,Climate Ireland,첫 화면(스크롤),https://www.climateireland.ie/,L5 L7 E1,"카드·타일 메뉴형, 목록·카탈로그형, 인포그래픽·일러스트",주제별 링크 목록 + 아이콘 섹션
+s053_p1,유럽,아일랜드,Climate Ireland,Data Explorer,https://www.climateireland.ie/data-explorer/,C2 M2 L3 C3 E4,"화면 분할(다중 지도), 격자·연속면 지도, 좌측 설정·레이어 패널, 시나리오·기간 탭 전환, 다운로드·공유 도구","좌측 변수·기간·시나리오 선택 + 온난화 수준별 지도 다중 배치, 다운로드"
+s053_p2,유럽,아일랜드,Climate Ireland,Climate Change,https://www.climateireland.ie/climate-change/,L6 E2,"스토리텔링·기사형, 사진·영상",기후변화 해설 페이지(쿠키 창)
+s053_p3,유럽,아일랜드,Climate Ireland,What is Climate Ireland?,https://www.climateireland.ie/resources/what-is-climate-ireland/,L6,스토리텔링·기사형,플랫폼 소개 텍스트
+s054_p0,유럽,벨기에,Klimaatportaal Vlaanderen,첫 화면,https://vmm.vlaanderen.be/feiten-cijfers/klimaat/klimaatportaal,L4 E1,"랜딩·히어로형, 인포그래픽·일러스트",일러스트 배너 + 도구 안내
+s054_p0s,유럽,벨기에,Klimaatportaal Vlaanderen,첫 화면(스크롤),https://vmm.vlaanderen.be/feiten-cijfers/klimaat/klimaatportaal,L6 E1,"스토리텔링·기사형, 인포그래픽·일러스트",기후 테마 안내 + 나침반 일러스트
+s054_p1,유럽,벨기에,Klimaatportaal Vlaanderen,Bekijk alle cijfers en kaarten,https://vmm.vlaanderen.be/feiten-cijfers/catalogus-feiten-cijfers,L7 L9 K3,"목록·카탈로그형, 검색 진입형, 등급·신호등",팩트·수치 카탈로그: 유형·주제 필터 + 카드 + 태그
+s054_p2,유럽,벨기에,Klimaatportaal Vlaanderen,IMPACT-tool  De IMPACT-tool toont je de gevolgen van de klim,https://vmm.vlaanderen.be/diensten-producten/impact-tool,L6,스토리텔링·기사형,영향 도구 소개(태그·공유)
+s054_p3,유럽,벨기에,Klimaatportaal Vlaanderen,PLAN-tool  Hoe kan je de klimaatbestendigheid van je gemeent,https://vmm.vlaanderen.be/diensten-producten/plan-tool,L6,스토리텔링·기사형,적응대책 도구 소개
+s055_p0,오세아니아,호주,Climate Change in Australia,첫 화면,https://www.climatechangeinaustralia.gov.au/en/,L4 E2 G2,"랜딩·히어로형, 사진·영상, 범위밴드 그래프",풍력 사진 히어로 + 시나리오 그래프 기사 미리보기
+s055_p0s,오세아니아,호주,Climate Change in Australia,첫 화면(스크롤),https://www.climatechangeinaustralia.gov.au/en/,L5 E1,"카드·타일 메뉴형, 인포그래픽·일러스트",인기 콘텐츠 아이콘 3종(추세·데이터·영향)
+s055_p1,오세아니아,호주,Climate Change in Australia,Projections landscape,https://www.climatechangeinaustralia.gov.au/en/overview/about-site/landscape/,L6,스토리텔링·기사형,전망 체계 해설 문서 + 좌측 목차
+s055_p2,오세아니아,호주,Climate Change in Australia,Queensland Future Climate,https://www.climatechangeinaustralia.gov.au/en/overview/about-site/landscape/queensland-future-climate/,L6 E2,"스토리텔링·기사형, 사진·영상",주 단위 미래기후 소개
+s056_p0,오세아니아,호주,AdaptNSW 기후전망 지도,첫 화면,https://www.climatechange.environment.nsw.gov.au/projections-map,L3 M1,"좌측 설정·레이어 패널, 단계구분도",지역·전망 선택 패널 + 지도 진입(설문 배너)
+s056_p0s,오세아니아,호주,AdaptNSW 기후전망 지도,첫 화면(스크롤),https://www.climatechange.environment.nsw.gov.au/projections-map,L3 M1 K4 C3 K1 E4,"좌측 설정·레이어 패널, 단계구분도, 색상 범례 강조, 시나리오·기간 탭 전환, KPI·숫자 카드, 다운로드·공유 도구","기간 슬라이더·시나리오 버튼 + 지도 + 범례 + 계절별 변화 KPI 타일, 공유"
+s056_p1,오세아니아,호주,AdaptNSW 기후전망 지도,https://www.climatechange.environment.nsw.gov.au/about-adaptnsw/nsw-government-action-climate-change,https://www.climatechange.environment.nsw.gov.au/about-adaptnsw/nsw-government-action-climate-change,L4 E2,"랜딩·히어로형, 사진·영상",정책 소개 사진 배너 + 바로가기
+s056_p2,오세아니아,호주,AdaptNSW 기후전망 지도,NSW Climate Change Adaptation Action Plan 2025-2029,https://www.climatechange.environment.nsw.gov.au/about-adaptnsw/nsw-government-action-climate-change/Adaptation-Action-Plan-2025-2029,L4 E2,"랜딩·히어로형, 사진·영상",적응 실행계획 사진 배너
+s056_p3,오세아니아,호주,AdaptNSW 기후전망 지도,https://www.climatechange.environment.nsw.gov.au/about-adaptnsw/nsw-climate-change-adaptation-strategy,https://www.climatechange.environment.nsw.gov.au/about-adaptnsw/nsw-climate-change-adaptation-strategy,L4 E2,"랜딩·히어로형, 사진·영상",적응 전략 사진 배너
+s057_p0,오세아니아,호주,Australian Climate Service,첫 화면,https://www.acs.gov.au/,L9 L4 E2,"검색 진입형, 랜딩·히어로형, 사진·영상",검색 중심 히어로 + 소개 카드
+s057_p0s,오세아니아,호주,Australian Climate Service,첫 화면(스크롤),https://www.acs.gov.au/,L5 E2,"카드·타일 메뉴형, 사진·영상",추천 콘텐츠 사진 카드(개인정보 팝업)
+s057_p1,오세아니아,호주,Australian Climate Service,Understanding climate,https://www.acs.gov.au/pages/climate-understanding,L6,스토리텔링·기사형,기후 이해 해설 + 페이지 내 목차
+s057_p2,오세아니아,호주,Australian Climate Service,Climate modelling,https://www.acs.gov.au/pages/climate-modelling,L6,스토리텔링·기사형,기후 모델링 해설 + 페이지 내 목차
+s058_p0,오세아니아,뉴질랜드,NZ SeaRise,첫 화면,https://searise.nz/,L4 E2,"랜딩·히어로형, 사진·영상",해안 사진 슬로건 히어로
+s058_p0s,오세아니아,뉴질랜드,NZ SeaRise,첫 화면(스크롤),https://searise.nz/,L6 E1,"스토리텔링·기사형, 인포그래픽·일러스트",연구 프로그램 해설 + 순환형 다이어그램
+s058_p1,오세아니아,뉴질랜드,NZ SeaRise,Coastal hazards,https://searise.nz/research-themes/multiple-coastal-hazards/,L6 E2,"스토리텔링·기사형, 사진·영상",해안 위험 해설 사진 기사
+s058_p2,오세아니아,뉴질랜드,NZ SeaRise,Managing risk and anxiety,https://searise.nz/research-themes/managing-risk-and-anxiety/,L6 E2,"스토리텔링·기사형, 사진·영상",위험·불안 관리 해설 기사
+s058_p3,오세아니아,뉴질랜드,NZ SeaRise,Maps,https://searise.nz/maps/,L6 M5,"스토리텔링·기사형, 위성·항공영상",지도 도구 소개(항공사진)
+s059_p0,아시아,대만,TCCIP,첫 화면,https://tccip.ncdr.nat.gov.tw/,L4 L5 E1,"랜딩·히어로형, 카드·타일 메뉴형, 인포그래픽·일러스트",전자보 배너 + 아이콘 메뉴 + 적용 사례 일러스트 카드
+s059_p0s,아시아,대만,TCCIP,첫 화면(스크롤),https://tccip.ncdr.nat.gov.tw/,L7 E2,"목록·카탈로그형, 사진·영상",최신 소식 목록 + 영상 + 전자보 썸네일
+s059_p1,아시아,대만,TCCIP,資料應用工具,https://tccip.ncdr.nat.gov.tw/tool.aspx,L7 L5 E2,"목록·카탈로그형, 카드·타일 메뉴형, 사진·영상",데이터 응용 도구 카드 목록(조회수 표시)
+s059_p2,아시아,대만,TCCIP,搜尋,https://tccip.ncdr.nat.gov.tw/sitemap.aspx#gsc.tab=0,L7,목록·카탈로그형,사이트맵 + 검색창
+s059_p3,아시아,대만,TCCIP,https://tccip.ncdr.nat.gov.tw/ARK/ARK_map.aspx?lang=zh&d=AF,https://tccip.ncdr.nat.gov.tw/ARK/ARK_map.aspx?lang=zh&d=AF,L2 M2 M5 L3 K4,"풀스크린 지도 뷰어, 격자·연속면 지도, 위성·항공영상, 좌측 설정·레이어 패널, 색상 범례 강조",위성영상 위 격자 지도 + 우측 영역·지표·시나리오 설정 패널 + 범례
+s060_p0,아시아,홍콩,Climate Projections for Hong Kong,첫 화면,https://www.hko.gov.hk/en/climate_change/future_climate.htm,L6 L5 E1,"스토리텔링·기사형, 카드·타일 메뉴형, 인포그래픽·일러스트",기후전망 소개 + 요소별(기온·강수·해수면) 카드
+s060_p1,아시아,홍콩,Climate Projections for Hong Kong,Weather Expand,https://www.hko.gov.hk/en/sitemap.html?menu=1,L7,목록·카탈로그형,날씨 하위 메뉴 링크 목록
+s060_p3,아시아,홍콩,Climate Projections for Hong Kong,Rainfall Distribution Map,https://www.hko.gov.hk/en/wxinfo/rainfall/item_list.htm,L7 E2,"목록·카탈로그형, 사진·영상",강우 분포도 기간 링크 목록
+s061_p0,아시아,일본,日本の気候変動2025,첫 화면,https://www.data.jma.go.jp/cpdinfo/ccj/index.html,L6 E2,"스토리텔링·기사형, 사진·영상",보고서 표지 사진 + 개정 이력 텍스트
+s061_p0s,아시아,일본,日本の気候変動2025,첫 화면(스크롤),https://www.data.jma.go.jp/cpdinfo/ccj/index.html,L5 E4,"카드·타일 메뉴형, 다운로드·공유 도구",보고서 판형별(개요·본편·상세) 다운로드 카드
+s061_p1,아시아,일본,日本の気候変動2025,PDF形式,https://www.data.jma.go.jp/cpdinfo/gw_portal/region_climate_change.html,L6 L8 E4,"스토리텔링·기사형, 데이터 표, 다운로드·공유 도구",지방별 기후변화 리플릿 PDF 표
+s063_p0,국제,국제,Climate Change Knowledge Portal,첫 화면,https://climateknowledgeportal.worldbank.org/,L5 M5 L7,"카드·타일 메뉴형, 위성·항공영상, 목록·카탈로그형",데이터 탐색 사진 카드(국가·유역) + 경보·뉴스
+s063_p0s,국제,국제,Climate Change Knowledge Portal,첫 화면(스크롤),https://climateknowledgeportal.worldbank.org/,L5 G1 E2,"카드·타일 메뉴형, 선그래프(시계열), 사진·영상",ENSO 예측 그래프·보고서 카드 + 주제 색상 타일
+s063_p1,국제,국제,Climate Change Knowledge Portal,Climate Change and Development,https://climateknowledgeportal.worldbank.org/climate-change-development,L5 E2,"카드·타일 메뉴형, 사진·영상",주제 색상 타일 4종 + 포털 배너
+s063_p2,국제,국제,Climate Change Knowledge Portal,Climate Change Overview,https://climateknowledgeportal.worldbank.org/climate-change-overview,L6 G3,"스토리텔링·기사형, 막대그래프",기후변화 개요 해설 + 목차 + 기온편차 그래프
+s063_p3,국제,국제,Climate Change Knowledge Portal,Metadata,https://climateknowledgeportal.worldbank.org/metadata,L6,스토리텔링·기사형,메타데이터 설명 문서 + 목차
+s065_p0,국제,국제,Climate Impact Explorer,첫 화면,https://climate-impact-explorer.climateanalytics.org/,L9 C3 L4,"검색 진입형, 시나리오·기간 탭 전환, 랜딩·히어로형",국가·지표·시나리오 선택 바 + 탐색 버튼 첫 화면
+s065_p0s,국제,국제,Climate Impact Explorer,첫 화면(스크롤),https://climate-impact-explorer.climateanalytics.org/,L5 C1 C2 G1 M2,"카드·타일 메뉴형, 좌우 비교(스와이프), 화면 분할(다중 지도), 선그래프(시계열), 격자·연속면 지도",기능 카드: 시간 변화·좌우 비교(지도 미리보기)
+s065_p1,국제,국제,Climate Impact Explorer,Explorer,https://climate-impact-explorer.climateanalytics.org/impacts/,C3 L3 E4,"시나리오·기간 탭 전환, 좌측 설정·레이어 패널, 다운로드·공유 도구",국가·지역·지표·시나리오 선택 + 그래프 설명·다운로드
+s065_p2,국제,국제,Climate Impact Explorer,Download,https://climate-impact-explorer.climateanalytics.org/data-download/,L6 E4,"스토리텔링·기사형, 다운로드·공유 도구",데이터 다운로드·API 안내
+s066_p0,국제,국제,#ShowYourStripes,첫 화면,https://showyourstripes.info/,G6 L3 C3,"기후 스트라이프, 좌측 설정·레이어 패널, 시나리오·기간 탭 전환","전지구 기후 스트라이프 + 지역 선택·정보 패널, 표출 유형 탭"
+s066_p1,국제,국제,#ShowYourStripes,MAP,https://showyourstripes.info/map,M3,포인트·마커 지도,스트라이프 제공 지점 마커 세계지도
+s067_p0,국제,국제,Our World in Data - Climate Change,첫 화면,https://ourworldindata.org/climate-change,L6 C3,"스토리텔링·기사형, 시나리오·기간 탭 전환",기후변화 주제 소개 + 탭(소개·연구·차트)
+s067_p0s,국제,국제,Our World in Data - Climate Change,첫 화면(스크롤),https://ourworldindata.org/climate-change,L6 L7 G3 G1,"스토리텔링·기사형, 목록·카탈로그형, 막대그래프, 선그래프(시계열)",기사 카드 목록 + 막대·선 그래프 썸네일
+s067_p1,국제,국제,Our World in Data - Climate Change,Our World in Data,https://ourworldindata.org/,L9 L5 G4 G1,"검색 진입형, 카드·타일 메뉴형, 누적·영역 그래프, 선그래프(시계열)",검색 중심 히어로(차트·주제 수 표시) + 차트 썸네일 기사 카드
+s067_p2,국제,국제,Our World in Data - Climate Change,Data,https://ourworldindata.org/search,L7 L9 G1 M1 G3 K1 E4,"목록·카탈로그형, 검색 진입형, 선그래프(시계열), 단계구분도, 막대그래프, KPI·숫자 카드, 다운로드·공유 도구",데이터 카탈로그: 지표별 선·지도·막대 미니차트 + 최신값 숫자 + 다운로드
+s067_p3,국제,국제,Our World in Data - Climate Change,"March 25, 2024  More people care about climate change than y",https://ourworldindata.org/climate-change-support,L6,스토리텔링·기사형,데이터 기반 해설 기사
+s068_p0,국제,국제,ND-GAIN Country Index,첫 화면,https://gain.nd.edu/our-work/country-index/,L4 L3 M1 E4,"랜딩·히어로형, 좌측 설정·레이어 패널, 단계구분도, 다운로드·공유 도구",국가지수 사진 배너 + 좌측 메뉴 + 다운로드 버튼 + 지도
+s068_p0s,국제,국제,ND-GAIN Country Index,첫 화면(스크롤),https://gain.nd.edu/our-work/country-index/,M1 K4 L8 K3,"단계구분도, 색상 범례 강조, 데이터 표, 등급·신호등",국가별 적응지수 단계구분도(나쁨~좋음) + 상·하위 순위 표
+s068_p1,국제,국제,ND-GAIN Country Index,Global Urban Climate Assessment,https://gain.nd.edu/our-work/global-urban-climate-assessment/,L6 L3 E2,"스토리텔링·기사형, 좌측 설정·레이어 패널, 사진·영상",도시 단위 평가 소개 + 좌측 메뉴
+s068_p2,국제,국제,ND-GAIN Country Index,DOWNLOAD ND-GAIN DATA,https://gain.nd.edu/our-work/country-index/download-data/,L6 E4,"스토리텔링·기사형, 다운로드·공유 도구",데이터 다운로드 안내 + 좌측 메뉴
+s069_p0,국내,한국,기상청 기후정보포털,첫 화면,https://www.climate.go.kr/notice.html,L7,목록·카탈로그형,임시 점검 안내 + 연계 서비스 링크 목록
+s069_p0s,국내,한국,기상청 기후정보포털,첫 화면(스크롤),https://www.climate.go.kr/notice.html,L7 L5,"목록·카탈로그형, 카드·타일 메뉴형",연계 서비스 바로가기 번호 목록
+s069_p1,국내,한국,기상청 기후정보포털,기후변화과학콘텐츠 바로가기 →,https://www.climate.go.kr/edu/,L4 L5 E1 E2,"랜딩·히어로형, 카드·타일 메뉴형, 인포그래픽·일러스트, 사진·영상",과학콘텐츠 배너 + 학년별 영상 카드
+s070_p0,국내,한국,기상청 날씨누리 기후,첫 화면,https://www.weather.go.kr/w/climate/prediction.do,L5 L3,"카드·타일 메뉴형, 좌측 설정·레이어 패널",기후예측(1·3·6개월 등) 카드 메뉴 + 좌측 메뉴
+s070_p1,국내,한국,기상청 날씨누리 기후,위험기상,https://www.weather.go.kr/w/hazard/typhoon.do,L5 L3,"카드·타일 메뉴형, 좌측 설정·레이어 패널",위험기상(태풍) 하위 서비스 카드
+s071_p0,국내,한국,기상청 날씨누리,첫 화면,https://www.weather.go.kr/w/index.do,L1 M3 L9 K3 K2 C3,"대시보드형, 포인트·마커 지도, 검색 진입형, 등급·신호등, 게이지·진행바, 시나리오·기간 탭 전환",날씨 지도(지점 값) + 지역 검색 + 현재 기온·대기질 원형 게이지
+s071_p0s,국내,한국,기상청 날씨누리,첫 화면(스크롤),https://www.weather.go.kr/w/index.do,L8 G1 E1 C3,"데이터 표, 선그래프(시계열), 인포그래픽·일러스트, 시나리오·기간 탭 전환",일별 예보 표 + 시간별 기온 선그래프·날씨 아이콘
+s072_p0,국내,한국,기상자료개방포털,첫 화면,https://data.kma.go.kr/cmmn/main.do,L9 L5 E1 E2,"검색 진입형, 카드·타일 메뉴형, 인포그래픽·일러스트, 사진·영상",검색창 + 데이터 분류 타일 메뉴 + 신규 서비스 목록
+s072_p1,국내,한국,기상자료개방포털,국가기후데이터센터 소개,https://data.kma.go.kr/cmmn/static/staticPage.do?page=orgIntro&pgmNo=700,L6 L9 E1,"스토리텔링·기사형, 검색 진입형, 인포그래픽·일러스트",국가기후데이터센터 소개 + 일러스트 + 검색창
+s073_p0,국내,한국,기상청 기후감시예측정보,첫 화면,https://www.kma.go.kr/cpd/,L4 L5 E2,"랜딩·히어로형, 카드·타일 메뉴형, 사진·영상",서비스 4종 사진 카드 첫 화면
+s073_p1,국내,한국,기상청 기후감시예측정보,한반도 기후감시,https://www.kma.go.kr/cpd/content/main/Detail_kor.html?lv1=1&lv2=4,C2 M2 L3 C4 K4,"화면 분할(다중 지도), 격자·연속면 지도, 좌측 설정·레이어 패널, 타임슬라이더·재생, 색상 범례 강조",평균기온 편차·평균 지도 나란히 + 날짜 이동 바 + 좌측 요소 선택
+s074_p0,국내,한국,국가기후위기적응센터,첫 화면,https://kaccc.kei.re.kr/home/,L4 E2 M5,"랜딩·히어로형, 사진·영상, 위성·항공영상",항공사진 슬로건 히어로 + 퀵메뉴
+s074_p0s,국내,한국,국가기후위기적응센터,첫 화면(스크롤),https://kaccc.kei.re.kr/home/,L7 E2,"목록·카탈로그형, 사진·영상",공지사항 목록 + 포토뉴스
+s074_p1,국내,한국,국가기후위기적응센터,기후위기 적응,https://kaccc.kei.re.kr/home/menu.es?mid=a10201000000,L6 L3 E2,"스토리텔링·기사형, 좌측 설정·레이어 패널, 사진·영상",기후변화 정의 해설 + 좌측 하위 메뉴
+s075_p0,국내,한국,탄소중립 정책포털,첫 화면,https://www.gihoo.or.kr/,L5 E1,"카드·타일 메뉴형, 인포그래픽·일러스트",정책포털·실천포털 2분할 일러스트 진입 카드
+s075_p1,국내,한국,탄소중립 정책포털,기후행동 정책포털  녹색 대한민국 실현을 위한 우리나라의 주요 기후행동 정책과 국내외 탄소중립 관련 정책·계,https://www.gihoo.or.kr/netzero,L4 G1 L9 E2,"랜딩·히어로형, 선그래프(시계열), 검색 진입형, 사진·영상",풍력 사진 히어로 + 기후변화 4대지표 선그래프 카드 + 통합검색(점검 팝업)
+s076_p0,국내,한국,한강홍수통제소,첫 화면,https://www.hrfco.go.kr/,L4 L5 E1 E2,"랜딩·히어로형, 카드·타일 메뉴형, 인포그래픽·일러스트, 사진·영상",하천 사진 히어로 + 아이콘 퀵메뉴(훈련 영상 팝업)
+s076_p1,국내,한국,한강홍수통제소,공공데이터 개방,https://www.hrfco.go.kr/info/info4.do,L6 L3 E4,"스토리텔링·기사형, 좌측 설정·레이어 패널, 다운로드·공유 도구",공공데이터 개방 안내 + 좌측 메뉴
+s077_p0,국내,한국,국민재난안전포털,첫 화면,https://www.safekorea.go.kr/safekorea-kor/main/main.do,L1 L7 K3 E1,"대시보드형, 목록·카탈로그형, 등급·신호등, 인포그래픽·일러스트",재난속보(유형 라벨)·재난문자·날씨 요약 + 빠른메뉴(이벤트 팝업)
+s077_p0s,국내,한국,국민재난안전포털,첫 화면(스크롤),https://www.safekorea.go.kr/safekorea-kor/main/main.do,L5 E1,"카드·타일 메뉴형, 인포그래픽·일러스트",국민행동요령 재난 유형 아이콘 카드(이벤트 팝업)
+s077_p1,국내,한국,국민재난안전포털,재해위험지구,https://www.safekorea.go.kr/safekorea-kor/ctim/dsdr/disasterRiskDistrict.do?menuSn=37,L8 L3 L9,"데이터 표, 좌측 설정·레이어 패널, 검색 진입형",재해위험지구 표 + 시도·시군구 검색
+s078_p0,국내,한국,산사태정보시스템,첫 화면,https://sansatai.forest.go.kr/mhms_pub/mhms/main/mainPage.do;jsessionid=daJu8FKHquI9HzwhHAD9b1SLqhfe9b1X_ZivdzuO.ldm10,K2 K3 L8 L9 M1 L1,"게이지·진행바, 등급·신호등, 데이터 표, 검색 진입형, 단계구분도, 대시보드형",위기경보 수준 반원 게이지 + 예보발령 표 + 대피소 검색 + 전국 지도
+s078_p1,국내,한국,산사태정보시스템,산사태 예측정보,https://sansatai.forest.go.kr/mhms_pub/mhms/forecast/expectListPage.do,M3 L5,"포인트·마커 지도, 카드·타일 메뉴형",예측정보 없음 안내 + 위성 지도
+s079_p0,국내,한국,물환경정보시스템,첫 화면,https://water.nier.go.kr/web,L4 M3 E5 G1,"랜딩·히어로형, 포인트·마커 지도, 단계형 안내·튜토리얼, 선그래프(시계열)",물환경 대시보드 소개: 지도 일러스트 + 사용 방법 단계 + 그래프 미리보기
+s079_p1,국내,한국,물환경정보시스템,운영현황,https://water.nier.go.kr/web/contents/contentView/?pMENU_NO=50,L6 L3,"스토리텔링·기사형, 좌측 설정·레이어 패널",운영 목적·법적 근거 해설
+s080_p0,국내,한국,환경공간정보서비스,첫 화면,https://egis.me.go.kr/,L4 M2 L5 L9 E1,"랜딩·히어로형, 격자·연속면 지도, 카드·타일 메뉴형, 검색 진입형, 인포그래픽·일러스트",3D 격자 지도 배경 + 원형 아이콘 메뉴 + 통합검색
+s081_p0,국내,한국,바다누리 해양정보,첫 화면,https://www.khoa.go.kr/oceangrid/khoa/intro.do,L4 E1 L5,"랜딩·히어로형, 인포그래픽·일러스트, 카드·타일 메뉴형",해양 일러스트 + 서비스 아이콘 + 하단 3분할 카드
+s081_p1,국내,한국,바다누리 해양정보,사용자툴,https://www.khoa.go.kr/oceangrid/gis/user/userTool.do,L6 E1 E5,"스토리텔링·기사형, 인포그래픽·일러스트, 단계형 안내·튜토리얼",사용자툴 처리 흐름도(단계형 일러스트)
+s082_p0,국내,한국,APEC 기후센터,첫 화면,https://www.apcc21.org/,L4 L5,"랜딩·히어로형, 카드·타일 메뉴형",기관 소개 문구 + 계절전망 카드(이미지 미로딩)
+s082_p1,국내,한국,APEC 기후센터,예측정보 생산 및 서비스,https://www.apcc21.org/content/clpre?lang=ko,L6 E1,"스토리텔링·기사형, 인포그래픽·일러스트",예측정보 생산 조직도형 안내
+s083_p0,국내,한국,K-water 물정보포털,첫 화면,https://www.water.or.kr/,L4 K1 L9 E2 E3,"랜딩·히어로형, KPI·숫자 카드, 검색 진입형, 사진·영상, 챗봇·AI 도우미",내 지역 물정보: 사진 히어로 + 요금·현실화율·수질 KPI + AI 챗봇 아이콘
+s083_p0s,국내,한국,K-water 물정보포털,첫 화면(스크롤),https://www.water.or.kr/,L7 L5 E1,"목록·카탈로그형, 카드·타일 메뉴형, 인포그래픽·일러스트",물 뉴스 목록 + 일러스트 주제 카드 캐러셀
+s083_p1,국내,한국,K-water 물정보포털,One Click 데이터서비스 NEW,https://www.water.or.kr/kdm/mainMap/main.do,L2 L3 E5,"풀스크린 지도 뷰어, 좌측 설정·레이어 패널, 단계형 안내·튜토리얼",원클릭 데이터 지도 + 사용법 동영상 안내창
+s084_p0,국내,한국,국립기상과학원,첫 화면,http://www.nims.go.kr/MA/main.jsp,L4 L5 L7 E2 E1,"랜딩·히어로형, 카드·타일 메뉴형, 목록·카탈로그형, 사진·영상, 인포그래픽·일러스트",기관 포털: 사진 배너 + 아이콘 주요 서비스 + 공지 탭
+s084_p1,국내,한국,국립기상과학원,기상기후연구,http://www.nims.go.kr/?sub_num=1309,L6 L3 E2,"스토리텔링·기사형, 좌측 설정·레이어 패널, 사진·영상",연구 분야 해설 + 좌측 메뉴
+s085_p0,국내,한국,온실가스종합정보센터,첫 화면,https://www.gir.go.kr/home/main.do,L4 L5 E1 E2,"랜딩·히어로형, 카드·타일 메뉴형, 인포그래픽·일러스트, 사진·영상",환영 히어로 + 아이콘 퀵링크
+s085_p0s,국내,한국,온실가스종합정보센터,첫 화면(스크롤),https://www.gir.go.kr/home/main.do,L5 E2,"카드·타일 메뉴형, 사진·영상",인사말·업무검색·알림배너 카드
+s085_p1,국내,한국,온실가스종합정보센터,SITEMAP,https://www.gir.go.kr/home/index.do?menuId=42,L7,목록·카탈로그형,사이트맵
+s086_p0,국내,한국,서울 열린데이터광장 기후,첫 화면,https://data.seoul.go.kr/,L9 L5 K1 E1,"검색 진입형, 카드·타일 메뉴형, KPI·숫자 카드, 인포그래픽·일러스트",데이터 검색 + 홍보 배너 + 데이터 유형별 건수 아이콘
+s086_p1,국내,한국,서울 열린데이터광장 기후,공공데이터,https://data.seoul.go.kr/dataList/datasetList.do?datasetKind=1&searchFlag=M,L7 L9,"목록·카탈로그형, 검색 진입형",공공데이터 검색 결과 목록 + 좌측 분류 필터(건수)
+s087_p0,국내,한국,국가환경교육 플랫폼,첫 화면,https://keep.go.kr/,L4 L7 L5 E1 E3,"랜딩·히어로형, 목록·카탈로그형, 카드·타일 메뉴형, 인포그래픽·일러스트, 챗봇·AI 도우미",공모전 배너 + 공지 탭 + 교육 브랜드 아이콘 + 챗봇
+s087_p0s,국내,한국,국가환경교육 플랫폼,첫 화면(스크롤),https://keep.go.kr/,L5 E1,"카드·타일 메뉴형, 인포그래픽·일러스트",월간 환경교육 일러스트 카드 + 사업 아이콘 카드
+s087_p1,국내,한국,국가환경교육 플랫폼,유아 기후환경교육관                                     바로가기,https://keep.go.kr/front/fclt/infntEnveduFclt.html,L6 L3 L8 E1,"스토리텔링·기사형, 좌측 설정·레이어 패널, 데이터 표, 인포그래픽·일러스트",교육기관 운영 안내 표 + 일러스트 배너
+s088_p0,국내,한국,산림청 산불상황관제,첫 화면,https://fd.forest.go.kr/ffas/,L1 L4 K1 K2 M3 G5,"대시보드형, 랜딩·히어로형, KPI·숫자 카드, 게이지·진행바, 포인트·마커 지도, 원·도넛 그래프",산불 대응 사진 히어로 + 오늘 발생 현황 아이콘 KPI + 원형 진행 게이지 + 지도
+s088_p0s,국내,한국,산림청 산불상황관제,첫 화면(스크롤),https://fd.forest.go.kr/ffas/,K3 K4 K1 L5 E1,"등급·신호등, 색상 범례 강조, KPI·숫자 카드, 카드·타일 메뉴형, 인포그래픽·일러스트",산불위험등급 색상 바 + 위험예보 건수 + 행동요령 일러스트 카드
+s088_p1,국내,한국,산림청 산불상황관제,산불통계,https://fd.forest.go.kr/ffas/pubConn/movePage/sub3.do,L1 K2 K1 M1 G1 G5 L8 E4,"대시보드형, 게이지·진행바, KPI·숫자 카드, 단계구분도, 선그래프(시계열), 원·도넛 그래프, 데이터 표, 다운로드·공유 도구",산불통계 대시보드: 원형 KPI·지역 지도·월별 선그래프·원인 도넛·표
+s089_p0,북미,미국,NASA Climate Change,첫 화면,https://science.nasa.gov/climate-change/,L4 M4 M5 K1,"랜딩·히어로형, 지구본(3D), 위성·항공영상, KPI·숫자 카드",우주에서 본 지구 사진 히어로 + 핵심 지표 바로가기
+s089_p0s,북미,미국,NASA Climate Change,첫 화면(스크롤),https://science.nasa.gov/climate-change/,K1 L7 E2,"KPI·숫자 카드, 목록·카탈로그형, 사진·영상",핵심 지표 숫자 띠(증감 화살표) + 최신 뉴스 사진 카드
+s089_p1,북미,미국,NASA Climate Change,Explore Earth Science,https://science.nasa.gov/earth/explore/,L4,랜딩·히어로형,어두운 그라데이션 슬로건 히어로
+s090_p0,북미,미국,NASA Vital Signs,첫 화면,https://science.nasa.gov/earth/explore/earth-indicators/global-temperature/,K1 G1 E4,"KPI·숫자 카드, 선그래프(시계열), 다운로드·공유 도구",지표 페이지: 최신값 숫자 + 연도별 기온편차 선그래프 + 다운로드
+s090_p0s,북미,미국,NASA Vital Signs,첫 화면(스크롤),https://science.nasa.gov/earth/explore/earth-indicators/global-temperature/,G1 M2 E4,"선그래프(시계열), 격자·연속면 지도, 다운로드·공유 도구",확대 가능한 선그래프 + 데이터·PNG 받기 + 편차 지도 애니메이션
+s091_p0,북미,미국,NASA Sea Level Change,첫 화면,https://sealevel.nasa.gov/,L4 K1 G1 L5,"랜딩·히어로형, KPI·숫자 카드, 선그래프(시계열), 카드·타일 메뉴형",사진 히어로 + 핵심 지표(스파크라인+최신값) + 도구 카드
+s091_p0s,북미,미국,NASA Sea Level Change,첫 화면(스크롤),https://sealevel.nasa.gov/,K1 G1 L5 E4,"KPI·숫자 카드, 선그래프(시계열), 카드·타일 메뉴형, 다운로드·공유 도구",지표 스파크라인·수치 목록 + 하이라이트 캐러셀
+s091_p1,북미,미국,NASA Sea Level Change,Sea levels are rising faster due to the changing climate — h,https://sealevel.nasa.gov/sea-level-101/introduction/,L4 L6 E2 C3,"랜딩·히어로형, 스토리텔링·기사형, 사진·영상, 시나리오·기간 탭 전환",사진 히어로 + 주제 탭(입문 기사)
+s092_p0,북미,미국,NASA Worldview,첫 화면,https://worldview.earthdata.nasa.gov/,L2 L3 M5 C4 E5 C1,"풀스크린 지도 뷰어, 좌측 설정·레이어 패널, 위성·항공영상, 타임슬라이더·재생, 단계형 안내·튜토리얼, 좌우 비교(스와이프)",위성영상 뷰어: 좌측 레이어 + 하단 타임라인 + 스토리 투어 안내창 + 비교 버튼
+s093_p0,북미,미국,NASA Earth Observatory,첫 화면,https://science.nasa.gov/earth/earth-observatory/,L5 M5 E2,"카드·타일 메뉴형, 위성·항공영상, 사진·영상",오늘의 위성 이미지 카드 + 기관 소개
+s093_p0s,북미,미국,NASA Earth Observatory,첫 화면(스크롤),https://science.nasa.gov/earth/earth-observatory/,L7 M5 E2,"목록·카탈로그형, 위성·항공영상, 사진·영상",위성 이미지 기사 카드 + 페이지 번호
+s094_p0,북미,미국,NOAA Climate Dashboard,첫 화면,https://www.climate.gov/climatedashboard,L5 G1 G3,"카드·타일 메뉴형, 선그래프(시계열), 막대그래프",지표별 미니 그래프 카드 대시보드(온실가스·해빙·CO2 등) + 지표 정렬
+s094_p0s,북미,미국,NOAA Climate Dashboard,첫 화면(스크롤),https://www.climate.gov/climatedashboard,L5 G1 G3,"카드·타일 메뉴형, 선그래프(시계열), 막대그래프",지표 미니 그래프 카드 그리드(해양열·해수면·적설 등)
+s095_p0,북미,미국,NOAA GML CO2 Trends,첫 화면,https://gml.noaa.gov/ccgg/trends/,C3 K1 G1,"시나리오·기간 탭 전환, KPI·숫자 카드, 선그래프(시계열)",가스별 탭 + 기간 탭 + 최신 월평균 KPI 박스 + 시계열
+s095_p0s,북미,미국,NOAA GML CO2 Trends,첫 화면(스크롤),https://gml.noaa.gov/ccgg/trends/,G1 E4,"선그래프(시계열), 다운로드·공유 도구",CO2 월평균·장기 추세 그래프 2종 + PNG·PDF 받기 + 해설
+s096_p0,북미,미국,NOAA Climate Prediction Center,첫 화면,https://www.cpc.ncep.noaa.gov/,L7 L3 M1 C2 K4,"목록·카탈로그형, 좌측 설정·레이어 패널, 단계구분도, 화면 분할(다중 지도), 색상 범례 강조",좌측 링크 메뉴 + 전망 상품 버튼 표 + 기온·강수 전망 지도 2장 나란히
+s096_p1,북미,미국,NOAA Climate Prediction Center,Site Map,https://www.cpc.ncep.noaa.gov/products/site_index.shtml,L7,목록·카탈로그형,사이트 색인(알파벳순 링크)
+s097_p0,북미,미국,NOAA Sea Level Trends,첫 화면,https://tidesandcurrents.noaa.gov/trends-and-extremes/,M3 L6 E4,"포인트·마커 지도, 스토리텔링·기사형, 다운로드·공유 도구",지점별 추세 화살표 지도 + 실행·데이터 버튼
+s097_p0s,북미,미국,NOAA Sea Level Trends,첫 화면(스크롤),https://tidesandcurrents.noaa.gov/trends-and-extremes/,C3 G1 L6,"시나리오·기간 탭 전환, 선그래프(시계열), 스토리텔링·기사형",탭(소개·FAQ·교육) + 극한 고조위 시계열 그래프
+s097_p1,북미,미국,NOAA Sea Level Trends,Coastal Hazards,https://tidesandcurrents.noaa.gov/coastal_hazards.html,L4 E2,"랜딩·히어로형, 사진·영상",침수 거리 사진 배너 + 해안 위험 소개
+s098_p0,북미,미국,Drought.gov,첫 화면,https://www.drought.gov/,L4 L9 E2,"랜딩·히어로형, 검색 진입형, 사진·영상",뉴스 사진 히어로 + 우편번호 검색(우리 동네 가뭄)
+s098_p0s,북미,미국,Drought.gov,첫 화면(스크롤),https://www.drought.gov/,M1 K4 C3 L8,"단계구분도, 색상 범례 강조, 시나리오·기간 탭 전환, 데이터 표",가뭄 단계구분도 + 지표 탭 + 범주별 면적 비율 범례 표
+s102_p0,북미,미국,CDC Heat & Health Tracker,첫 화면,https://ephtracking.cdc.gov/Applications/heatTracker/,L1 L3 L9 M1 L5 C3,"대시보드형, 좌측 설정·레이어 패널, 검색 진입형, 단계구분도, 카드·타일 메뉴형, 시나리오·기간 탭 전환",폭염·건강 대시보드: 좌측 메뉴 + 우편번호 검색 + 주제 카드 3종 + 일별 온열질환 지도(탭)
+s102_p0s,북미,미국,CDC Heat & Health Tracker,첫 화면(스크롤),https://ephtracking.cdc.gov/Applications/heatTracker/,L6 M1 K4 E2,"스토리텔링·기사형, 단계구분도, 색상 범례 강조, 사진·영상",지도 범례(등급) + 폭염·건강 해설 + 영상
+s102_p1,북미,미국,CDC Heat & Health Tracker,HeatRisk,https://ephtracking.cdc.gov/Applications/HeatRisk/,L9 M1 K3 K4 L3,"검색 진입형, 단계구분도, 등급·신호등, 색상 범례 강조, 좌측 설정·레이어 패널",“우리 동네 폭염위험” 우편번호 검색 + 위험등급 단계구분도 + 날짜 선택
+s103_p0,북미,미국,NSIDC Sea Ice Today,첫 화면,https://nsidc.org/sea-ice-today,L4 E2 M2 G2 C3,"랜딩·히어로형, 사진·영상, 격자·연속면 지도, 범위밴드 그래프, 시나리오·기간 탭 전환",해빙 사진 배너 + 북극/남극 탭 + 해빙 농도 지도 + 범위 밴드 그래프
+s103_p0s,북미,미국,NSIDC Sea Ice Today,첫 화면(스크롤),https://nsidc.org/sea-ice-today,L6,스토리텔링·기사형,서비스 축소 공지 + 유지·중단 목록
+s103_p1,북미,미국,NSIDC Sea Ice Today,National Snow and Ice Data Center          NSIDC            ,https://nsidc.org/,L4 E2,"랜딩·히어로형, 사진·영상",50주년 사진 히어로 + 데이터 탐색 버튼
+s104_p0,북미,미국,Keeling Curve,첫 화면,https://keelingcurve.ucsd.edu/,K1 G1 C3 G8,"KPI·숫자 카드, 선그래프(시계열), 시나리오·기간 탭 전환, 산점도·버블",최신 CO2 값 크게 + 기간 탭(1주~8십만 년) + 시계열 그래프
+s104_p0s,북미,미국,Keeling Curve,첫 화면(스크롤),https://keelingcurve.ucsd.edu/,L7 L6,"목록·카탈로그형, 스토리텔링·기사형",최신 게시물 목록 + 뉴스레터 신청
+s104_p1,북미,미국,Keeling Curve,OTHER CLIMATE INDICATORS,https://keelingcurve.ucsd.edu/the-state-of-climate/,L5 L7,"카드·타일 메뉴형, 목록·카탈로그형",외부 기후지표 사이트 카드
+s105_p0,북미,미국,Berkeley Earth,첫 화면,https://berkeleyearth.org/,L4 K1 L9 E2,"랜딩·히어로형, KPI·숫자 카드, 검색 진입형, 사진·영상",“세계는 1.3°C 더워졌다” 큰 숫자 + 국가 선택 히어로
+s105_p0s,북미,미국,Berkeley Earth,첫 화면(스크롤),https://berkeleyearth.org/,L6 M4,"스토리텔링·기사형, 지구본(3D)",언론 로고 + 월별 기온 업데이트 카드(지구 지도)
+s105_p1,북미,미국,Berkeley Earth,Data Overview,https://berkeleyearth.org/data/,L6 E4,"스토리텔링·기사형, 다운로드·공유 도구",데이터 개요·라이선스 안내 문서
+s106_p0,북미,미국,Climate Central,첫 화면,https://www.climatecentral.org/,L9 L4 E2,"검색 진입형, 랜딩·히어로형, 사진·영상",“내 기후 이야기” 도시 검색 사진 히어로
+s106_p0s,북미,미국,Climate Central,첫 화면(스크롤),https://www.climatecentral.org/,L4 M6 E2,"랜딩·히어로형, 흐름 애니메이션, 사진·영상",기관 소개 + 흐름 애니메이션 배경 이미지(쿠키 창)
+s106_p1,북미,미국,Climate Central,https://www.climatecentral.org/climate-shift-index,https://www.climatecentral.org/climate-shift-index,L6 C3,"스토리텔링·기사형, 시나리오·기간 탭 전환",지수 해설 + 하위 지수 탭
+s107_p0,북미,미국,Climate Central Surging Seas,첫 화면,https://www.climatecentral.org/sea-level-rise,L4 E2,"랜딩·히어로형, 사진·영상",“어떤 미래를 선택할까?” 질문형 배너
+s107_p0s,북미,미국,Climate Central Surging Seas,첫 화면(스크롤),https://www.climatecentral.org/sea-level-rise,L6 L5,"스토리텔링·기사형, 카드·타일 메뉴형",프로그램 소개 + 도구 카드 캐러셀
+s107_p1,북미,미국,Climate Central Surging Seas,Climate Central,https://www.climatecentral.org/,L9 L4 E2,"검색 진입형, 랜딩·히어로형, 사진·영상",도시 검색 사진 히어로(중복 레이아웃)
+s108_p0,북미,미국,En-ROADS,첫 화면,https://en-roads.climateinteractive.org/scenario.html?v=26.10.0,L1 G4 G1 K1 E5,"대시보드형, 누적·영역 그래프, 선그래프(시계열), KPI·숫자 카드, 단계형 안내·튜토리얼",정책 슬라이더 시뮬레이터: 에너지 누적 영역그래프 + 온도상승 KPI + 시작 안내창
+s109_p0,북미,미국,Global Forest Watch,첫 화면,https://globalnaturewatch.org/map/,L2 L3 M5 E5,"풀스크린 지도 뷰어, 좌측 설정·레이어 패널, 위성·항공영상, 단계형 안내·튜토리얼",산림 감시 지도 + 좌측 레이어 + “무엇을 하시겠어요?” 시작 안내창
+s109_p1,북미,미국,Global Forest Watch,DASHBOARD,https://globalnaturewatch.org/dashboards/global/,L1 L3 C3 E4 M1,"대시보드형, 좌측 설정·레이어 패널, 시나리오·기간 탭 전환, 다운로드·공유 도구, 단계구분도","국가 대시보드: 요약 문장 + 탭(요약·토지·화재) + 지도, 공유·다운로드"
+s110_p0,북미,미국,Resource Watch,첫 화면,https://resourcewatch.org/dashboards/climate,L4 L6,"랜딩·히어로형, 스토리텔링·기사형",주제 대시보드 소개 히어로(강조색 배경)
+s110_p0s,북미,미국,Resource Watch,첫 화면(스크롤),https://resourcewatch.org/dashboards/climate,L6,스토리텔링·기사형,기후 대시보드 스토리 섹션 제목
+s110_p1,북미,미국,Resource Watch,Data,https://resourcewatch.org/data/explore,L2 L3 L9,"풀스크린 지도 뷰어, 좌측 설정·레이어 패널, 검색 진입형",데이터 탐색 사이드바(검색·분류) + 지도
+s111_p1,북미,미국,Climate Watch,Explore NDCS,https://www.climatewatchdata.org/ndcs-explore,M1 K1 L3 C3 E4,"단계구분도, KPI·숫자 카드, 좌측 설정·레이어 패널, 시나리오·기간 탭 전환, 다운로드·공유 도구",국가 기후목표 지도 + 제출국 수 KPI + 문서·분류 필터 + 공유(구독 팝업)
+s112_p0,북미,미국,Climate TRACE,첫 화면,https://climatetrace.org/,L4 M4 L5,"랜딩·히어로형, 지구본(3D), 카드·타일 메뉴형",배출원 막대 지구본 히어로 + 기능 메뉴 3종
+s112_p0s,북미,미국,Climate TRACE,첫 화면(스크롤),https://climatetrace.org/,K1 G3 L5 E2,"KPI·숫자 카드, 막대그래프, 카드·타일 메뉴형, 사진·영상",총배출 숫자 + 월별 막대 + 기능 사진 카드
+s112_p1,북미,미국,Climate TRACE,Track Global Emissions from 745 million sources of greenhous,https://climatetrace.org/explore#admin=&gas=co2e&year=2025&timeframe=100&sector=&asset=,M4 M3 K1 G3 L9 C3,"지구본(3D), 포인트·마커 지도, KPI·숫자 카드, 막대그래프, 검색 진입형, 시나리오·기간 탭 전환",3D 지구본 배출원 막대 + 총배출 KPI 카드(월별 막대) + 부문·연도·가스 필터
+s115_p0,북미,캐나다,Canadian Climate Atlas Map,첫 화면,https://climateatlas.ca/map/canada/plus30_2030_85#,K4 E5,"색상 범례 강조, 단계형 안내·튜토리얼",변수 설명 오버레이(시나리오·기간·범례)
+s116_p0,유럽,EU,Copernicus Climate Change Service,첫 화면,https://climate.copernicus.eu/,L4 M1,"랜딩·히어로형, 단계구분도",하이라이트 캐러셀 배너 + 여름 리뷰 지도 카드
+s116_p0s,유럽,EU,Copernicus Climate Change Service,첫 화면(스크롤),https://climate.copernicus.eu/,L5 E2 M1,"카드·타일 메뉴형, 사진·영상, 단계구분도",주요 상품·서비스 사진 카드(아틀라스 지도 썸네일)
+s116_p1,유럽,EU,Copernicus Climate Change Service,Climate Pulse,https://climate.copernicus.eu/climate-pulse-tool-take-temperature-our-planet-glance,L4 M5,"랜딩·히어로형, 위성·항공영상",위성영상 배너 + 도구 소개 문구
+s117_p0,유럽,EU,Copernicus Atmosphere (CAMS),첫 화면,https://atmosphere.copernicus.eu/,L4,랜딩·히어로형,신규 도구 소개 캐러셀 배너
+s117_p0s,유럽,EU,Copernicus Atmosphere (CAMS),첫 화면(스크롤),https://atmosphere.copernicus.eu/,L5 E2,"카드·타일 메뉴형, 사진·영상",오늘의 대기질 예보 사진 카드
+s117_p1,유럽,EU,Copernicus Atmosphere (CAMS),Data,https://atmosphere.copernicus.eu/data,L4 E2,"랜딩·히어로형, 사진·영상",데이터 소개 사진 배너
+s118_p0,유럽,EU,Copernicus Marine,첫 화면,https://marine.copernicus.eu/,L4 L5 E2,"랜딩·히어로형, 카드·타일 메뉴형, 사진·영상",해양 사진 히어로 + 4개 서비스 박스(데이터·보고서·추세·시각화)
+s118_p1,유럽,EU,Copernicus Marine,Access Data,https://marine.copernicus.eu/access-data/,L4 L5 E2,"랜딩·히어로형, 카드·타일 메뉴형, 사진·영상",데이터 접근 배너 + 사용자 수준별 4개 박스
+s120_p0,유럽,EU,EEA Datahub,첫 화면,https://www.eea.europa.eu/en/datahub?size=n_10_n&filters%5B0%5D%5Bfield%5D=issued.date&filters%5B0%5D%5Btype%5D=any&filters%5B0%5D%5Bvalues%5D%5B0%5D=All%20time,L4 L5 E2,"랜딩·히어로형, 카드·타일 메뉴형, 사진·영상",데이터허브 소개 + 추천 데이터 사진 카드
+s120_p0s,유럽,EU,EEA Datahub,첫 화면(스크롤),https://www.eea.europa.eu/en/datahub?size=n_10_n&filters%5B0%5D%5Bfield%5D=issued.date&filters%5B0%5D%5Btype%5D=any&filters%5B0%5D%5Bvalues%5D%5B0%5D=All%20time,L7 L9,"목록·카탈로그형, 검색 진입형",데이터 검색 결과 목록 + 필터(형식·주제)
+s120_p1,유럽,EU,EEA Datahub,About,https://www.eea.europa.eu/en/datahub/about,L6 E4,"스토리텔링·기사형, 다운로드·공유 도구",데이터허브 소개(현재·다음·향후 기능)
+s121_p0,유럽,EU,EEA Climate Indicators,첫 화면,https://www.eea.europa.eu/en/analysis/indicators,L4 E2,"랜딩·히어로형, 사진·영상",지표 소개 사진 배너
+s121_p0s,유럽,EU,EEA Climate Indicators,첫 화면(스크롤),https://www.eea.europa.eu/en/analysis/indicators,L7 L9,"목록·카탈로그형, 검색 진입형",지표 목록 + 다중 필터(주제·SDG·출처·기간)
+s121_p1,유럽,EU,EEA Climate Indicators,Analysis and data,https://www.eea.europa.eu/en/analysis,L5 E1,"카드·타일 메뉴형, 인포그래픽·일러스트",자료 유형별 아이콘 메뉴(출판물·지표·데이터허브·지도)
+s122_p0,유럽,EU,JRC European Drought Observatory Map,첫 화면,https://drought.emergency.copernicus.eu/tumbo/edo/map/,L2 L3 M2 K3 K4,"풀스크린 지도 뷰어, 좌측 설정·레이어 패널, 격자·연속면 지도, 등급·신호등, 색상 범례 강조",가뭄지수 지도 + 레이어 패널 + 경계·주의·경보 범례 + 경고창
+s123_p0,유럽,EU,European Forest Fire (EFFIS),첫 화면,https://forest-fire.emergency.copernicus.eu/,L4 E2,"랜딩·히어로형, 사진·영상",산불 사진 히어로 + 소개문
+s123_p0s,유럽,EU,European Forest Fire (EFFIS),첫 화면(스크롤),https://forest-fire.emergency.copernicus.eu/,L5 M1 L8,"카드·타일 메뉴형, 단계구분도, 데이터 표",앱·뷰어 썸네일 카드 + 피해 통계 요약 표
+s123_p1,유럽,EU,European Forest Fire (EFFIS),Wildfire Risk Assessment,https://forest-fire.emergency.copernicus.eu/about-effis/technical-background/wildfire-risk-assessment,L6,스토리텔링·기사형,위험평가 방법 해설 텍스트
+s124_p0,유럽,영국,Met Office Climate Dashboard,첫 화면,https://climate.metoffice.cloud/,L6 G1,"스토리텔링·기사형, 선그래프(시계열)",기후 대시보드 소개 + 지표별 다중 데이터셋 선그래프
+s124_p0s,유럽,영국,Met Office Climate Dashboard,첫 화면(스크롤),https://climate.metoffice.cloud/,L5 G1 K1,"카드·타일 메뉴형, 선그래프(시계열), KPI·숫자 카드",지표 카드 그리드: 최신값 문장 + 선그래프 + 더보기
+s125_p0,유럽,영국,Carbon Brief,첫 화면,https://www.carbonbrief.org/,L6 L7 E2,"스토리텔링·기사형, 목록·카탈로그형, 사진·영상",기사 메인 사진 + 인기 기사 번호 목록
+s125_p1,유럽,영국,Carbon Brief,Databases,https://www.carbonbrief.org/features/databases,L7 L5 E1 M3,"목록·카탈로그형, 카드·타일 메뉴형, 인포그래픽·일러스트, 포인트·마커 지도",인터랙티브 기사 카드(지도·일러스트 썸네일)
+s127_p0,유럽,독일,Climate Change Tracker,첫 화면,https://climatechangetracker.org/,L6 M4 E4,"스토리텔링·기사형, 지구본(3D), 다운로드·공유 도구",“짧게 요약” 해설 + 지구 이미지 + 대시보드 바로가기
+s127_p1,유럽,독일,Climate Change Tracker,Embedding & Data,https://climatechangetracker.org/embedding-and-data,L6 E4,"스토리텔링·기사형, 다운로드·공유 도구",차트 임베드·데이터 다운로드 안내 카드
+s128_p0,유럽,독일,UBA Klimafolgen,첫 화면,https://www.umweltbundesamt.de/themen/klima-energie/klimafolgen-anpassung,L6 L3 E2,"스토리텔링·기사형, 좌측 설정·레이어 패널, 사진·영상",기후영향·적응 주제 페이지: 사진 + 우측 메뉴 + 적응 도구 배너
+s128_p0s,유럽,독일,UBA Klimafolgen,첫 화면(스크롤),https://www.umweltbundesamt.de/themen/klima-energie/klimafolgen-anpassung,L7 E2,"목록·카탈로그형, 사진·영상",주제 기사 사진 목록 + 태그 버튼
+s129_p0,유럽,스위스,MeteoSwiss Climate,첫 화면,https://www.meteoswiss.admin.ch/climate.html,L6,스토리텔링·기사형,기후 섹션 소개 질문형 문장 + 링크 목록
+s129_p0s,유럽,스위스,MeteoSwiss Climate,첫 화면(스크롤),https://www.meteoswiss.admin.ch/climate.html,L7,목록·카탈로그형,기후 하위 링크 목록 + 뉴스레터 안내
+s129_p1,유럽,스위스,MeteoSwiss Climate,https://www.meteoswiss.admin.ch/natural-hazards-easy-to-understand-information.html,https://www.meteoswiss.admin.ch/natural-hazards-easy-to-understand-information.html,L6 E5,"스토리텔링·기사형, 단계형 안내·튜토리얼",쉬운 말 안내 페이지(쉬운 언어 모드)
+s130_p1,유럽,오스트리아,GeoSphere Austria Klima,Daten,https://www.geosphere.at/de/daten,L6,스토리텔링·기사형,데이터 소개 텍스트
+s131_p0,국제,국제,WMO,첫 화면,https://wmo.int/,L5 E2 M2,"카드·타일 메뉴형, 사진·영상, 격자·연속면 지도",인용문 + 성명·간행물 사진 카드(계절 전망 지도)
+s131_p0s,국제,국제,WMO,첫 화면(스크롤),https://wmo.int/,L7 E2,"목록·카탈로그형, 사진·영상",최신 뉴스 사진 카드
+s131_p1,국제,국제,WMO,Dashboards,https://wmo.int/resources/dashboards,L7 L9 E2,"목록·카탈로그형, 검색 진입형, 사진·영상",대시보드 목록: 검색 + 사진 썸네일 카드
+s132_p0,국제,국제,World Weather Attribution,첫 화면,https://www.worldweatherattribution.org/,L7 L6 E2,"목록·카탈로그형, 스토리텔링·기사형, 사진·영상",최신 분석 기사 목록 + 재해 유형 카드(이미지 미로딩)
+s132_p0s,국제,국제,World Weather Attribution,첫 화면(스크롤),https://www.worldweatherattribution.org/,L6 L7,"스토리텔링·기사형, 목록·카탈로그형",기관 소개 + 재해 유형 카드
+s132_p1,국제,국제,World Weather Attribution,Information for journalists,https://www.worldweatherattribution.org/reporting-extreme-weather-and-climate-change-a-guide-for-journalists/,L6,스토리텔링·기사형,언론인 안내 페이지
+s133_p1,국제,국제,Climate Action Tracker,Climate Target Update Tracker,https://climateactiontracker.org/climate-target-update-tracker-2035/,M1 K1 K2 K3,"단계구분도, KPI·숫자 카드, 게이지·진행바, 등급·신호등",국가목표 제출 단계구분도 + 제출국 수 KPI(색 점 등급) + 배출 비중 진행바
+s134_p0,국제,국제,Global Carbon Atlas,첫 화면,https://globalcarbonatlas.org/,L5 M3 E1 G8,"카드·타일 메뉴형, 포인트·마커 지도, 인포그래픽·일러스트, 산점도·버블",국가 배출 버블 지도 + 메뉴 버튼 + 최신 소식 카드
+s134_p0s,국제,국제,Global Carbon Atlas,첫 화면(스크롤),https://globalcarbonatlas.org/,L5 E1 G1,"카드·타일 메뉴형, 인포그래픽·일러스트, 선그래프(시계열)",주제 카드(탄소 이야기·모니터·도시) 일러스트 + 그래프 썸네일
+s134_p1,국제,국제,Global Carbon Atlas,Data use,https://globalcarbonatlas.org/project/data-use/,G3 L6,"막대그래프, 스토리텔링·기사형",국가별 배출 순위 가로 막대 + 데이터 이용 안내
+s135_p0,국제,국제,GDACS,첫 화면,https://www.gdacs.org/,M3 L1 L7,"포인트·마커 지도, 대시보드형, 목록·카탈로그형",재난 이벤트 세계지도 + 뉴스 바(쿠키 배너)
+s135_p0s,국제,국제,GDACS,첫 화면(스크롤),https://www.gdacs.org/,L7 E1 M5,"목록·카탈로그형, 인포그래픽·일러스트, 위성·항공영상",재난 이벤트 아이콘 목록 + 위성영상 카드
+s136_p0,국제,국제,PreventionWeb,첫 화면,https://www.preventionweb.net/,L4 E2 L7,"랜딩·히어로형, 사진·영상, 목록·카탈로그형",사진 히어로 기사 + 최신 추가 사진 카드
+s136_p0s,국제,국제,PreventionWeb,첫 화면(스크롤),https://www.preventionweb.net/,L5 L9 E1,"카드·타일 메뉴형, 검색 진입형, 인포그래픽·일러스트",핵심 서비스 일러스트 카드 + 검색창
+s137_p0,국제,국제,Windy,첫 화면,"https://www.windy.com/?36.298,127.336,5",L2 M2 M6 C4 C3 K4,"풀스크린 지도 뷰어, 격자·연속면 지도, 흐름 애니메이션, 타임슬라이더·재생, 시나리오·기간 탭 전환, 색상 범례 강조",풀스크린 바람·기온 격자 지도 + 우측 레이어 버튼 + 하단 타임라인 재생 + 범례
+s138_p0,국제,국제,earth.nullschool,첫 화면,https://earth.nullschool.net/,M4 M6 L2,"지구본(3D), 흐름 애니메이션, 풀스크린 지도 뷰어",어두운 배경 지구본 위 바람 흐름 애니메이션
+s139_p0,국제,국제,Google Earth Timelapse,첫 화면,https://earthengine.google.com/timelapse/,L2 M5 C4 L7,"풀스크린 지도 뷰어, 위성·항공영상, 타임슬라이더·재생, 목록·카탈로그형",위성영상 타임랩스 + 연도 재생 바 + 좌측 사례 목록
+s140_p0,국제,국제,Global Warming Index,첫 화면,https://globalwarmingindex.org/,K1 G1 G2,"KPI·숫자 카드, 선그래프(시계열), 범위밴드 그래프",실시간 인위적 온난화 큰 숫자 + 불확실성 밴드 선그래프
+s140_p0s,국제,국제,Global Warming Index,첫 화면(스크롤),https://globalwarmingindex.org/,G1 E4,"선그래프(시계열), 다운로드·공유 도구",그래프 범례 설명 + CSV 다운로드
+s141_p0,국제,국제,UN Climate Change (UNFCCC),첫 화면,https://unfccc.int/,L4 E2,"랜딩·히어로형, 사진·영상",회의 사진 히어로 + 하위 바로가기
+s141_p0s,국제,국제,UN Climate Change (UNFCCC),첫 화면(스크롤),https://unfccc.int/,L7 E2,"목록·카탈로그형, 사진·영상",뉴스 사진 카드 + 다자 프로세스 섹션
+s141_p1,국제,국제,UN Climate Change (UNFCCC),The Convention,https://unfccc.int/process-and-meetings/united-nations-framework-convention-on-climate-change,L6 E2,"스토리텔링·기사형, 사진·영상",협약 소개 사진 기사
+s142_p0,국제,국제,IPCC,첫 화면,https://www.ipcc.ch/,L4,랜딩·히어로형,기관명 큰 타이포 히어로
+s142_p0s,국제,국제,IPCC,첫 화면(스크롤),https://www.ipcc.ch/,L6,스토리텔링·기사형,기관 소개 강조 문구 + 본문
+s143_p0,오세아니아,호주,BOM Climate,첫 화면,https://www.bom.gov.au/climate/,L5 L7 M2 C3,"카드·타일 메뉴형, 목록·카탈로그형, 격자·연속면 지도, 시나리오·기간 탭 전환",기후 요약 목록 + 강수·기온 지도 썸네일 타일(탭)
+s143_p1,오세아니아,호주,BOM Climate,NSW Forecast Area Map,https://www.bom.gov.au/nsw/forecasts/map.shtml?ref=hdr,M1 L3 L7,"단계구분도, 좌측 설정·레이어 패널, 목록·카탈로그형",예보구역 지도(번호 구역) + 우측 알림·링크 패널
+s144_p0,오세아니아,호주,CSIRO State of the Climate,첫 화면,https://www.csiro.au/en/research/environmental-impacts/climate-change/state-of-the-climate,L4 E2 E4,"랜딩·히어로형, 사진·영상, 다운로드·공유 도구",보고서 소개 사진 히어로 + 다운로드 버튼
+s144_p0s,오세아니아,호주,CSIRO State of the Climate,첫 화면(스크롤),https://www.csiro.au/en/research/environmental-impacts/climate-change/state-of-the-climate,L6 E2,"스토리텔링·기사형, 사진·영상",요약 영상 + 보고서 목차 사진 카드
+s144_p1,오세아니아,호주,CSIRO State of the Climate,https://www.csiro.au/en/research/environmental-impacts/climate-change,https://www.csiro.au/en/research/environmental-impacts/climate-change?start=0&count=12,L4 L5,"랜딩·히어로형, 카드·타일 메뉴형",기후변화 소개 배너 + 질문형 해설 카드(FAQ)
+s145_p0,오세아니아,뉴질랜드,NIWA Climate,첫 화면,https://niwa.co.nz/climate-and-weather,L4 E2,"랜딩·히어로형, 사진·영상",번개 사진 배너 + 섹션 소개
+s145_p0s,오세아니아,뉴질랜드,NIWA Climate,첫 화면(스크롤),https://niwa.co.nz/climate-and-weather,L5 E2,"카드·타일 메뉴형, 사진·영상",가뭄 예측 대시보드 소개 사진 카드 + 섹션 타일
+s145_p1,오세아니아,뉴질랜드,NIWA Climate,Explore all,https://niwa.co.nz/atmosphere,L4 E2,"랜딩·히어로형, 사진·영상",대기 연구 사진 배너
+s146_p0,아시아,일본,A-PLAT 기후변화적응정보플랫폼,첫 화면,https://adaptation-platform.nies.go.jp/,L4 E2,"랜딩·히어로형, 사진·영상",사진 슬로건 히어로(“미래를 만드는 건 우리”)
+s146_p0s,아시아,일본,A-PLAT 기후변화적응정보플랫폼,첫 화면(스크롤),https://adaptation-platform.nies.go.jp/,L5 E1 E2,"카드·타일 메뉴형, 인포그래픽·일러스트, 사진·영상",추천 콘텐츠 일러스트·사진 카드 + 적응 개념 안내
+s146_p1,아시아,일본,A-PLAT 기후변화적응정보플랫폼,気候変動に強いうめの品種開発（和歌山県）,https://adaptation-platform.nies.go.jp/data/interview/cs-067.html,L6 E2,"스토리텔링·기사형, 사진·영상",적응 사례 인터뷰 기사
+s148_p0,아시아,싱가포르,Meteorological Service Singapore Climate,첫 화면,https://www.weather.gov.sg/climate-climate-of-singapore/,L6 L8,"스토리텔링·기사형, 데이터 표",싱가포르 기후 해설 + 계절 특징 표
+s148_p0s,아시아,싱가포르,Meteorological Service Singapore Climate,첫 화면(스크롤),https://www.weather.gov.sg/climate-climate-of-singapore/,L8 G3,"데이터 표, 막대그래프",계절 표 + 월별 강수일수 막대그래프
+s148_p1,아시아,싱가포르,Meteorological Service Singapore Climate,Astronomical Data and Tides,https://www.weather.gov.sg/weather-astronomical-and-tidal-information-today,G4 C3,"누적·영역 그래프, 시나리오·기간 탭 전환",일출·일몰 고도 영역그래프 + 오늘·내일·월별 탭
