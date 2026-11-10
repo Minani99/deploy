@@ -1,1 +1,0 @@
-import{R as s}from"./index-BKSA388N.js";const c="/portal",a=c+"/api/v1/portal/link-data";function i(){const t=s.useAPI();async function n(){return(await t.post(`${a}/sector`)).data||{}}async function r(){return(await t.post(`${a}/agency`)).data||[]}return{fetchSectorSummary:n,fetchAgencySummary:r}}export{i as u};
